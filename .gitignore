@@ -1,0 +1,13 @@
+*~
+\#*
+.\#*
+
+__pycache__
+secrets.py
+
+db.sqlite3
+
+makemigrations
+migrate
+createsuperuser
+runserver
