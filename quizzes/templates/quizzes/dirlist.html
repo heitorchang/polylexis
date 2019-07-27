@@ -22,10 +22,13 @@
 </div>
 
 <div class="folder-list">
-Listas de palavras nesta pasta
+Arquivos nesta pasta
 
 <table>
+
+{% if files_links.items|length > 0 %}
 <tr><td>Estudar</td><td>Praticar</td><td>&nbsp;</td></tr>
+{% endif %}
 
 {% for fname, display in files_links.items %}
 <tr>
