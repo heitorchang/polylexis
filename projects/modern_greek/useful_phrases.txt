@@ -5,5 +5,5 @@ Type in Greek (lowercase letters only)
 hello*γεια σου/γεια σας
 please*παρακαλώ
 thank you*ευχαριστώ
-good morning*kalimera
-good month*kalo mhna
+good morning*καλημέρα
+good month*καλό μήνα
