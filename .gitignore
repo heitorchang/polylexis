@@ -11,3 +11,5 @@ makemigrations
 migrate
 createsuperuser
 runserver
+
+template*

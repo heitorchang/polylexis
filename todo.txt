@@ -4,3 +4,8 @@
 [OK] remember to add trailing slash after projects/ folders
 [OK] format style, remove link underline
 [NO] header breadcrumbs
+
+Completed Duolingo Mandarin
+
+Greeting 1, 2, 3, 4
+Numbers

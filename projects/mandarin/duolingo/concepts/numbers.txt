@@ -1,0 +1,17 @@
+Numbers
+===
+Write the Chinese characters
+===
+1/one*一
+2/two*二
+3/three*三
+4/four*四
+5/five*五
+6/six*六
+7/seven*七
+8/eight*八
+9/nine*九
+10/ten*十
+0/zero*零
+yuan*元
+100/hundred*百

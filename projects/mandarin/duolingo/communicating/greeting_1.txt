@@ -1,0 +1,6 @@
+Greeting 1
+===
+Write the Chinese characters
+===
+hello/hi/how are you?*你好
+bye/goodbye/see you later*再见
