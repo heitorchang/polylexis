@@ -5,7 +5,7 @@
 
 <h3>dirs</h3>
 
-{% if pardir|length > 1 %}
+{% if pardir|length > 2 %}
 <a href="{% url "fileeditor:dirlist" dirname=pardir %}">.. (parent directory)</a>
 {% endif %}
 
@@ -15,8 +15,8 @@
 
 <h3>files</h3>
 
-{% for f in files_links %}
-<a href="{% url "fileeditor:fileread" dirname=shortdir filename=f %}">{{ f }}</a>
+{% for fname, display in files_links.items %}
+<a href="{% url "fileeditor:fileread" dirname=shortdir filename=fname %}">{{ display }}</a>
 {% endfor %}
 
 {% endblock %}

@@ -1,10 +1,11 @@
 import os
-from glob import glob
+import subprocess
 from pathlib import Path
 from django.shortcuts import render, redirect
 from django.contrib.auth.decorators import login_required
 
 from .forms import TextFileForm
+from projectio import tree
 
 
 @login_required
@@ -14,24 +15,8 @@ def index(request):
 
 @login_required
 def dirlist(request, dirname):
-    curdir = Path(os.getcwd()).as_posix() + "/" + dirname
-    shortdir = dirname
-    pardir = "/".join(shortdir.split("/")[:-2]) + "/"
-    
-    dirs_links = []
-    files_links = []
-
-    for filename in os.listdir(curdir):
-        if os.path.isdir(os.path.join(curdir, filename)):
-            dirs_links.append(dirname + filename + "/")
-        else:
-            files_links.append(filename.replace(".txt", ""))
-
-    return render(request, 'fileeditor/dirlist.html',
-                  {'dirs_links': dirs_links,
-                   'files_links': files_links,
-                   'pardir': pardir,
-                   'shortdir': shortdir,})
+    context = tree.dirlist(dirname)
+    return render(request, 'fileeditor/dirlist.html', context)
 
 
 @login_required
@@ -58,10 +43,16 @@ def fileread(request, dirname, filename):
             new_contents = new_contents.replace('\r', '')
             with open(fullname, 'w', encoding="utf-8") as outf:
                 print(new_contents, file=outf)
-            return redirect('fileeditor:dirlist', dirname=dirname)
+            return redirect('fileeditor:dirlist', dirname=dirname + "/")
     else:
         form = TextFileForm()
         contents = Path(fullname).read_text(encoding="utf-8")
         return render(request, 'fileeditor/fileread.html',
                       {'filename': fullname,
                        'contents': contents})
+
+
+@login_required
+def gitpull(request):
+    info = subprocess.check_output(['git', 'pull']).decode("utf-8")
+    return render(request, 'fileeditor/info.html', {'info': info})

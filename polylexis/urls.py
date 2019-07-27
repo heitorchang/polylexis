@@ -23,4 +23,5 @@ urlpatterns = [
     path('accounts/', include('django.contrib.auth.urls')),
     path('', uiIndex, name="index"),
     path('fileeditor/', include('fileeditor.urls')),
+    path('quizzes/', include('quizzes.urls')),
 ]
