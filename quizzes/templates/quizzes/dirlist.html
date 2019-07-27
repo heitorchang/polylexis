@@ -22,13 +22,25 @@
 </div>
 
 <div class="folder-list">
-Word lists in this folder<br><br>
+Listas de palavras nesta pasta
+
+<table>
+<tr><td>Estudar</td><td>Praticar</td><td>&nbsp;</td></tr>
 
 {% for fname, display in files_links.items %}
+<tr>
+<td>
+<a href="{% url "answers" dirname=shortdir filename=fname %}">
+  <img src="{% static "img/list.png" %}" alt="list">
+</a>
+</td>
+<td>
 <a href="{% url "fileread" dirname=shortdir filename=fname %}">
   <img src="{% static "img/pencil.png" %}" alt="pencil">
-  {{ display }}
-</a><br>
+</a>
+</td>
+<td>{{ display }}</td>
+</tr>
 {% endfor %}
 </div>
 

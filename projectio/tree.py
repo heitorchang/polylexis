@@ -20,7 +20,7 @@ def dirlist(dirname):
             dirs_links[dirname + filename + "/"] = filename
         else:
             # read display line (first line of text file)
-            fullname = curdir + filename
+            fullname = curdir + "/" + filename
             with open(fullname, encoding="utf-8") as inf:
                 filename_no_txt = filename.replace(".txt", "")
                 files_links[filename_no_txt] = inf.readline()

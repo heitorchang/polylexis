@@ -1,0 +1,15 @@
+{% extends "ui/base.html" %}
+{% load static %}
+{% block content %}
+<div class="ctr">
+<span id="back"><a href="{% url "dirlist" dirname=dirname %}"><img src="{% static "img/back.png" %}" alt="back arrow"></a></span><br><br>
+
+{{ description }}
+<br>
+    <table id="allans" class="ctr ans" style="display: inline-block;">
+{{ allans_table|safe }}
+    </table>
+<br><br>
+<a href="{% url "fileread" dirname=dirname filename=filename %}"><img src="{% static "img/pencil.png" %}" alt="pencil"> Praticar</a>
+</div>
+{% endblock %}

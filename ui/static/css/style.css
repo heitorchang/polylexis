@@ -60,7 +60,7 @@ table {
     border-collapse: collapse;
 }
 
-tr:nth-child(even) {
+.ans tr:nth-child(even) {
     background-color: #DEF;
 }
 

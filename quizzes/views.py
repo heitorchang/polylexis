@@ -23,5 +23,21 @@ def fileread(request, dirname, filename):
             
     return render(request, 'quizzes/quiz.html',
                   {'description': description,
-                   'words_display': words_display,
+                   'dirname': dirname,
+                   'filename': filename,
+                   'words_display': words_display})
+
+
+def answers(request, dirname, filename):
+    fullname = Path(os.getcwd()).as_posix() + "/" + dirname + "/" + filename + ".txt"
+
+    contents = Path(fullname).read_text(encoding="utf-8")
+
+    display, description, questions_block = contents.split("===")
+    words_display, allans_table = questionparser.parse(questions_block)
+            
+    return render(request, 'quizzes/answers.html',
+                  {'description': description,
+                   'dirname': dirname,
+                   'filename': filename,
                    'allans_table': allans_table})

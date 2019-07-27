@@ -2,24 +2,25 @@
 {% load static %}
 {% block content %}
 <div class="ctr">
-<span id="back"><a href="javascript:window.history.back();"><img src="{% static "img/back.png" %}" alt="back arrow"></a></span><br><br>
+<span id="back"><a href="{% url "dirlist" dirname=dirname %}"><img src="{% static "img/back.png" %}" alt="back arrow"></a></span>
+<br>
 
-{{ description }}
-
-<br><br>
-<button id="inorder">Reset (in order)</button>
-<button id="shuffled">Reset (shuffled)</button>
-<button id="swap">Swap shown / hidden</button>
+{{ description }} <a href="{% url "answers" dirname=dirname filename=filename %}"><br>
+<img src="{% static "img/list.png" %}" alt="list">Ver respostas</a>
 
 <br><br>
+<button id="inorder">Reset (em ordem)</button>
+<button id="shuffled">Reset (embaralhado)</button>
+<button id="swap">Trocar pergunta / resposta</button>
 
-Question <span id="cur_q"></span> / <span id="num_q"></span>
-    <br>
-    Type = (equals) at any time to reveal answer
-    
+<br><br>
+
+Digite = (igual) abaixo para revelar resposta<br>
+
+Pergunta <span id="cur_q"></span> / <span id="num_q"></span>
     <br><br>
     <span id="prompt"></span>
-    <br><br>
+    <br>
     <input id="textbox" size="30">
 
     <br><br>
@@ -27,12 +28,7 @@ Question <span id="cur_q"></span> / <span id="num_q"></span>
     <div id="notice"></div>
     <div id="debug"></div>
 
-    <br>
-    <button id="showall">Show/hide all answers</button>
-    <br>
-    <table id="allans" style="display: none;">
-{{ allans_table|safe }}
-    </table>
+    <button id="advance" style="display: none;">Continuar</button>
 </div>
 {% endblock %}
 
