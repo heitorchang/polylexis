@@ -102,7 +102,7 @@ document.getElementById("textbox").onkeyup = function (e) {
     }
   } else {
     if (span_prompt.innerText === all_done && e.keyCode === 13) {
-      window.history.back();
+      window.location.href = './';
     }
   }
 }
