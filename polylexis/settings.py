@@ -125,3 +125,7 @@ STATIC_URL = '/static/'
 
 LOGIN_URL = '/accounts/login/'
 LOGIN_REDIRECT_URL = '/'
+
+STATIC_ROOT = [
+    '/home/public/static/',
+]
