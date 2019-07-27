@@ -1,15 +1,36 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="image/png" href="{% static 'img/favicon.ico' %}">
+    <style>
+    @font-face {
+      font-family: 'Vollkorn';
+      src: url('{% static 'fonts/vollkorn.ttf' %}') format('truetype');
+      font-style: normal;
+    }
+    </style>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
     <title>PolyLexis</title>
   </head>
   <body>
-    {% block content %}
-    {% endblock %}
-
+    <div id="mainbody" v-cloak>
+      {% block content %}
+      {% endblock %}
+    </div>
+    
     {% block script %}
     {% endblock %}
+    <script src="{% static 'js/vue.min.js' %}"></script>
+    <script>
+      var app = new Vue({
+        el: "#mainbody",
+        data: {
+          appname: "Polylexis"
+        }
+      });
+    </script>
   </body>
 </html>

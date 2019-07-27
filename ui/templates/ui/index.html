@@ -1,8 +1,13 @@
 {% extends "ui/base.html" %}
+{% load static %}
 
 {% block content %}
-<h3>Polylexis</h3>
-
-<a href="/projects/modern_greek/">Greek vocabulary quizzes of nouns, adjectives, adverbs, verbs</a>
+<div class="ctr">
+<h1>Polylexis Vocabulary Quizzes</h1>
+<a href="/projects/modern_greek/">
+<img src="{% static "img/gr.png" %}" alt="bubble">
+Greek nouns, adjectives, adverbs, verbs
+</a>
+</div>
 
 {% endblock %}
