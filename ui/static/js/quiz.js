@@ -86,7 +86,7 @@ document.getElementById("textbox").onkeyup = function (e) {
 
     if (questions[current].answer.indexOf(user_ans) >= 0) {
       if (questions[current].answer.length > 1) {
-        var all_accepted = "<br><br>(Todas respostas aceitas: " + questions[current].answer.join(" / ") + ")";
+        var all_accepted = "<br>(Todas respostas aceitas: " + questions[current].answer.join(" / ") + ")";
       } else {
         var all_accepted = "";
       }
