@@ -10,14 +10,14 @@ def dirlist(dirname):
     # remove trailing slash
     shortdir = dirname[:-1] if dirname[-1] == "/" else dirname
     
-    pardir = "/".join(shortdir.split("/")[:-1]) + "/"
+    pardir = "/".join(shortdir.split("/")[:-1])
     
     dirs_links = OrderedDict()
     files_links = OrderedDict()
 
     for filename in sorted(os.listdir(curdir)):
         if os.path.isdir(os.path.join(curdir, filename)):
-            dirs_links[dirname + filename + "/"] = filename
+            dirs_links[dirname + "/" + filename] = filename
         else:
             # read display line (first line of text file)
             fullname = curdir + "/" + filename

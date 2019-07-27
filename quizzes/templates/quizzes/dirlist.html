@@ -12,7 +12,7 @@
 {% if pardir|length > 1 %}
 <a href="{% url "dirlist" dirname=pardir %}">
   <img src="{% static "img/back.png" %}" alt="back arrow">
-  Back (parent folder)
+  Voltar (diretório acima)
 </a><br>
 {% endif %}
 
@@ -42,7 +42,11 @@ Arquivos nesta pasta
   <img src="{% static "img/pencil.png" %}" alt="pencil">
 </a>
 </td>
-<td>{{ display }}</td>
+<td>
+<a href="{% url "fileread" dirname=shortdir filename=fname %}">
+  {{ display }}
+</a>
+</td>
 </tr>
 {% endfor %}
 </div>
