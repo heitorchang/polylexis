@@ -1,22 +1,22 @@
 {% extends "ui/base.html" %}
 {% block content %}
-
+<a href="{% url "index" %}">Home</a>
 <h2>{{ shortdir }}</h2>
 
 <h3>Quizzes dirs</h3>
 
 {% if pardir|length > 1 %}
-<a href="{% url "quizzes:dirlist" dirname=pardir %}">.. (parent directory)</a>
+<a href="{% url "dirlist" dirname=pardir %}">.. (parent directory)</a>
 {% endif %}
 
 {% for d in dirs_links %}
-<a href="{% url "quizzes:dirlist" dirname=d %}">{{ d }}</a>
+<a href="{% url "dirlist" dirname=d %}">{{ d }}</a>
 {% endfor %}
 
 <h3>files</h3>
 
-{% for f in files_links %}
-<a href="{% url "quizzes:fileread" dirname=shortdir filename=f %}">{{ f }}</a>
+{% for fname, display in files_links.items %}
+<a href="{% url "fileread" dirname=shortdir filename=fname %}">{{ display }}</a>
 {% endfor %}
 
 {% endblock %}

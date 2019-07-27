@@ -16,12 +16,13 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, include
 from ui.views import index as uiIndex
+from quizzes import views as quizviews
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    # path('.well-known/', include('letsencrypt.urls')),
     path('accounts/', include('django.contrib.auth.urls')),
-    path('', uiIndex, name="index"),
     path('fileeditor/', include('fileeditor.urls')),
-    path('quizzes/', include('quizzes.urls')),
+    path('<path:dirname>/<str:filename>.txt', quizviews.fileread, name="fileread"),
+    path('<path:dirname>', quizviews.dirlist, name="dirlist"),
+    path('', uiIndex, name="index"),
 ]
