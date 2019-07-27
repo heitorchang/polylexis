@@ -1,2 +1,3 @@
-[  ] file editor for admins only
-[  ]
+[OK] file editor for admins only
+[  ] splitlines
+[  ] read text file when generating quiz

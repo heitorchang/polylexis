@@ -1,4 +1,13 @@
+{% extends "ui/base.html" %}
+{% block content %}
+
+<h2>{{ shortdir }}</h2>
+
 <h3>dirs</h3>
+
+{% if pardir|length > 1 %}
+<a href="{% url "fileeditor:dirlist" dirname=pardir %}">.. (parent directory)</a>
+{% endif %}
 
 {% for d in dirs_links %}
 <a href="{% url "fileeditor:dirlist" dirname=d %}">{{ d }}</a>
@@ -6,4 +15,8 @@
 
 <h3>files</h3>
 
-{{ files_links }}
+{% for f in files_links %}
+<a href="{% url "fileeditor:fileread" dirname=shortdir filename=f %}">{{ f }}</a>
+{% endfor %}
+
+{% endblock %}

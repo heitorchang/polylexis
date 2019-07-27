@@ -1,0 +1,16 @@
+{% extends "ui/base.html" %}
+{% block content %}
+<a href="javascript:window.history.back();">Back</a>
+<br><br>
+
+{{ filename }}
+<br><br>
+<form method="POST">
+{% csrf_token %}
+<textarea name="contents" rows="20" cols="80">
+{{ contents }}
+</textarea>
+<br><br>
+<input type="submit">
+</form>
+{% endblock %}
