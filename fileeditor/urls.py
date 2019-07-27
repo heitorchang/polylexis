@@ -5,5 +5,10 @@ from . import views
 app_name = "fileeditor"
 
 urlpatterns = [
-    path('<str:dirname>/', views.dirlist, name="dirlist")
+    path('', views.index, name="index"),
+    path('<path:dirname>/create', views.filecreate, name="filecreate"),
+    path('<path:dirname>/<str:filename>.txt/update', views.fileupdate, name="fileupdate"),
+    path('<path:dirname>/<str:filename>.txt/delete', views.filedelete, name="filedelete"),
+    path('<path:dirname>/<str:filename>.txt', views.fileread, name="fileread"),
+    path('<path:dirname>', views.dirlist, name="dirlist"),
 ]

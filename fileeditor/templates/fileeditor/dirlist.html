@@ -1,1 +1,9 @@
-{{ dirname }}
+<h3>dirs</h3>
+
+{% for d in dirs_links %}
+<a href="{% url "fileeditor:dirlist" dirname=d %}">{{ d }}</a>
+{% endfor %}
+
+<h3>files</h3>
+
+{{ files_links }}

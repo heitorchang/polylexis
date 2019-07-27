@@ -19,5 +19,7 @@ from ui.views import index as uiIndex
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('accounts/', include('django.contrib.auth.urls')),
     path('', uiIndex, name="index"),
+    path('fileeditor/', include('fileeditor.urls')),
 ]
