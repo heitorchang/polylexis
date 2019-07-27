@@ -5,7 +5,5 @@
 [OK] format style, remove link underline
 [NO] header breadcrumbs
 
-Completed Duolingo Mandarin
-
-Greeting 1, 2, 3, 4
-Numbers
+Duolingo Mandarin progress (next lesson)
+08. Nation

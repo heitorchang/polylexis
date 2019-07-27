@@ -1,0 +1,6 @@
+Quantity
+===
+Write the Chinese characters
+===
+amount/how much?*多少
+number*号码

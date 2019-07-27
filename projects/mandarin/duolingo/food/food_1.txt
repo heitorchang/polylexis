@@ -1,0 +1,12 @@
+Food 1
+===
+Write the Chinese characters
+===
+face/side/surface*面
+fish*鱼
+to eat*吃
+food/cooked rice*饭
+to drink*喝
+tea*茶
+water*水
+

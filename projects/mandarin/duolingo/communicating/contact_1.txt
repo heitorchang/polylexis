@@ -1,0 +1,7 @@
+Contact 1
+===
+Write the Chinese characters
+===
+telephone*电话
+number*号码
+
