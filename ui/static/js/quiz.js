@@ -66,6 +66,7 @@ function advance(user_ans) {
     if (current === num_questions) {
       span_prompt.innerText = all_done;
       document.getElementById("back").style.display = "inline";
+      document.getElementById("backend").style.display = "inline";
     } else {
       setup_question(current);
     }
