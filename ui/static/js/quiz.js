@@ -77,7 +77,7 @@ advance_button.onclick = function () {
   
 setup_question(current);
 
-document.getElementById("textbox").onkeyup = function (e) {
+document.getElementById("textbox").oninput = function (e) {
   if (input_textbox.value.indexOf('=') >= 0 && current < num_questions) {
     input_textbox.value = questions[current].answer[0];
   }
