@@ -109,6 +109,31 @@ document.getElementById("textbox").onkeyup = function (e) {
   }
 }
 
+// see if mobile input method changed (added accent/converted a character)
+$("#textbox").bind("propertychange change input paste", function () {
+  if (current < num_questions) {
+    var user_ans = input_textbox.value;
+    user_ans = user_ans.trim();
+
+    if (questions[current].answer.indexOf(user_ans) >= 0) {
+      if (questions[current].answer.length > 1) {
+        var all_accepted = "<br>(Todas respostas aceitas: " + questions[current].answer.join(" / ") + ")";
+      } else {
+        var all_accepted = "";
+      }
+      notice("Certo! Digite Enter ou clique abaixo" + all_accepted); 
+      advance_button.style.display = "inline";
+    } else {
+      notice("");
+      advance_button.style.display = "none";
+    }
+
+    if (e.keyCode === 13) {
+      advance(user_ans);
+    }
+  }  
+});
+
 document.getElementById("swap").onclick = function () {
   for (var i = 0; i < questions.length; i++) {
     var temp = questions[i].prompt;
