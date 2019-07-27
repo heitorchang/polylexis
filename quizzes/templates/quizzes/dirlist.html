@@ -1,22 +1,35 @@
 {% extends "ui/base.html" %}
+{% load static %}
 {% block content %}
-<a href="{% url "index" %}">Home</a>
-<h2>{{ shortdir }}</h2>
-
-<h3>Quizzes dirs</h3>
+<b>Polylexis/{{ shortdir }}</b>
+<br>
+<div class="folder-list">
+<a href="{% url "index" %}">
+  <img src="{% static "img/home.png" %}" alt="home">
+  Home
+</a><br>
 
 {% if pardir|length > 1 %}
-<a href="{% url "dirlist" dirname=pardir %}">.. (parent directory)</a>
+<a href="{% url "dirlist" dirname=pardir %}">
+  <img src="{% static "img/back.png" %}" alt="back arrow">
+  Back (parent folder)
+</a><br>
 {% endif %}
 
-{% for d in dirs_links %}
-<a href="{% url "dirlist" dirname=d %}">{{ d }}</a>
+{% for d, display in dirs_links.items %}
+<a href="{% url "dirlist" dirname=d %}"><img src="{% static "img/folder.png" %}" alt="folder">{{ display }}</a><br>
 {% endfor %}
+</div>
 
-<h3>files</h3>
+<div class="folder-list">
+Word lists in this folder<br><br>
 
 {% for fname, display in files_links.items %}
-<a href="{% url "fileread" dirname=shortdir filename=fname %}">{{ display }}</a>
+<a href="{% url "fileread" dirname=shortdir filename=fname %}">
+  <img src="{% static "img/pencil.png" %}" alt="pencil">
+  {{ display }}
+</a><br>
 {% endfor %}
+</div>
 
 {% endblock %}

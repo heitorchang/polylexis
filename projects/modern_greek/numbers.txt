@@ -1,0 +1,15 @@
+Numbers (0 to 10)
+===
+Type in Greek
+===
+0/zero*μήδεν
+1/one*ένα
+2/two*δύο
+3/three*τρία
+4/four*τέσσερα
+5/five*πέντε
+6/six*έξι
+7/seven*επτά/εφτά
+8/eight*οκτώ/οχτώ
+9/nine*εννέα/εννιά
+10/ten*δέκα

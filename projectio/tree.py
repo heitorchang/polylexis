@@ -12,12 +12,12 @@ def dirlist(dirname):
     
     pardir = "/".join(shortdir.split("/")[:-1]) + "/"
     
-    dirs_links = []
+    dirs_links = OrderedDict()
     files_links = OrderedDict()
 
     for filename in os.listdir(curdir):
         if os.path.isdir(os.path.join(curdir, filename)):
-            dirs_links.append(dirname + filename + "/")
+            dirs_links[dirname + filename + "/"] = filename
         else:
             # read display line (first line of text file)
             fullname = curdir + filename
