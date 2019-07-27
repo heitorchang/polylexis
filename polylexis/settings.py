@@ -37,8 +37,10 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     # 'letsencrypt',
     'ui',
+    'io',
     'fileeditor',
     'accounts',
+    'quizzes',
 ]
 
 MIDDLEWARE = [

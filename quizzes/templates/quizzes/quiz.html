@@ -1,0 +1,13 @@
+{% extends "ui/base.html" %}
+{% block content %}
+<a href="javascript:window.history.back();">Back</a>
+<br><br>
+
+{{ description }}
+<br><br>
+
+{% for q in questions %}
+Question: {{ q }}<br>
+{% endfor %}
+
+{% endblock %}

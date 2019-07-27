@@ -7,7 +7,7 @@ Save text files in `projects` directory. The app will traverse this directory to
 ## File format
 
 ```
-Display name (will appear in file listings)
+Display name (one line only, will appear in file listings)
 ===
 Quiz prompt (such as, translate to Greek. Remember to add accents)
 ===

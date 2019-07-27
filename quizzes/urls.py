@@ -2,13 +2,10 @@ from django.urls import path
 
 from . import views
 
-app_name = "fileeditor"
+app_name = "quizzes"
 
 urlpatterns = [
     path('', views.index, name="index"),
-    path('gitpull', views.gitpull, name="gitpull"),
-    path('<path:dirname>/create', views.filecreate, name="filecreate"),
-    path('<path:dirname>/<str:filename>.txt/delete', views.filedelete, name="filedelete"),
     path('<path:dirname>/<str:filename>.txt', views.fileread, name="fileread"),
     path('<path:dirname>', views.dirlist, name="dirlist"),
 ]
