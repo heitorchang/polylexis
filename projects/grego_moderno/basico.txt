@@ -1,0 +1,15 @@
+O Básico
+===
+Escreva em grego (com letras minúsculas)
+===
+oi*γεια
+bom dia*καλημέρα
+boa tarde*καλό απόγευμα
+boa noite (ao se encontrar)*καλησπέρα
+boa noite (ao se despedir)*καληνύχτα
+tchau*γεια
+sim*ναι
+não*όχι
+tudo bem/ok*εντάξει/οκ
+por favor*παρακαλώ
+obrigado(a)*ευχαριστώ
