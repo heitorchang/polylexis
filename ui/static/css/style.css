@@ -55,3 +55,15 @@ img {
 [v-cloak] {
     display: none;
 }
+
+table {
+    border-collapse: collapse;
+}
+
+tr:nth-child(even) {
+    background-color: #DEF;
+}
+
+td {
+    padding: 3px;
+}
