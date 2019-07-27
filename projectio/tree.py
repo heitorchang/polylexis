@@ -15,7 +15,7 @@ def dirlist(dirname):
     dirs_links = OrderedDict()
     files_links = OrderedDict()
 
-    for filename in os.listdir(curdir):
+    for filename in sorted(os.listdir(curdir)):
         if os.path.isdir(os.path.join(curdir, filename)):
             dirs_links[dirname + filename + "/"] = filename
         else:
