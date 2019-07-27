@@ -2,7 +2,7 @@ Numbers (0 to 10)
 ===
 Type in Greek
 ===
-0/zero*μήδεν
+0/zero*μηδέν
 1/one*ένα
 2/two*δύο
 3/three*τρία
@@ -11,5 +11,5 @@ Type in Greek
 6/six*έξι
 7/seven*επτά/εφτά
 8/eight*οκτώ/οχτώ
-9/nine*εννέα/εννιά
+9/nine*εννιά/εννέα
 10/ten*δέκα

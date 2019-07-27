@@ -28,8 +28,6 @@
       {% endblock %}
     </div>
     
-    {% block script %}
-    {% endblock %}
     <script src="{% static 'js/vue.min.js' %}"></script>
     <script>
       var app = new Vue({
@@ -39,5 +37,6 @@
         }
       });
     </script>
+    {% block script %}{% endblock %}
   </body>
 </html>

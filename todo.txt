@@ -1,6 +1,6 @@
 [OK] file editor for admins only
 [OK] splitlines
 [OK] read text file when generating quiz, similar to fileeditor
-[  ] remember to add trailing slash after projects/ folders
-[  ] format style, remove link underline
-[  ] header breadcrumbs
+[OK] remember to add trailing slash after projects/ folders
+[OK] format style, remove link underline
+[NO] header breadcrumbs
