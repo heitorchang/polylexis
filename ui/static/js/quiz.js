@@ -77,12 +77,13 @@ advance_button.onclick = function () {
   
 setup_question(current);
 
-document.getElementById("textbox").oninput = function (e) {
+document.getElementById("textbox").onkeyup = function (e) {
   if (input_textbox.value.indexOf('=') >= 0 && current < num_questions) {
     input_textbox.value = questions[current].answer[0];
   }
   if (current < num_questions) {
     var user_ans = input_textbox.value;
+    user_ans = user_ans.trim();
 
     if (questions[current].answer.indexOf(user_ans) >= 0) {
       if (questions[current].answer.length > 1) {
