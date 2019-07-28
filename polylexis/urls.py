@@ -19,9 +19,9 @@ from ui.views import index as uiIndex
 from quizzes import views as quizviews
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
-    path('accounts/', include('django.contrib.auth.urls')),
-    path('fileeditor/', include('fileeditor.urls')),
+    # path('admin/', admin.site.urls),
+    # path('accounts/', include('django.contrib.auth.urls')),
+    # path('fileeditor/', include('fileeditor.urls')),
     path('<path:dirname>/<str:filename>.txt', quizviews.fileread, name="fileread"),
     path('<path:dirname>/<str:filename>.txt/answers/', quizviews.answers, name="answers"),
     path('<path:dirname>/', quizviews.dirlist, name="dirlist"),
