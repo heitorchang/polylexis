@@ -13,9 +13,10 @@
 {{ description }}
 
 <br><br>
-<button id="inorder"><img src="{% static "img/restart.png" %}" alt="round arrow"></button>
-<button id="shuffled"><img src="{% static "img/shuffle.png" %}" alt="colored arrows"></button>
-<button id="swap"><img src="{% static "img/swap.png" %}" alt="A to B"></button>
+<img src="{% static "img/restart.png" %}" alt="round arrow" id="inorder">&nbsp;
+<img src="{% static "img/shuffle.png" %}" alt="colored arrows" id="shuffled">&nbsp;
+<img src="{% static "img/swap.png" %}" alt="A to B" id="swap">&nbsp;
+<a href="#helpmodal" rel="modal:open"><img src="{% static "img/help.png" %}" alt="(?)"></a>
 
 <div id="helpmodal" class="modal">
 <img src="{% static "img/restart.png" %}" alt="round arrow"> Voltar ao início (palavras em ordem)<br>
@@ -23,8 +24,6 @@
 <img src="{% static "img/swap.png" %}" alt="A to B"> Trocar palavras visíveis com respostas<br>
 Digitar $ ou = na caixa de texto revela a resposta.
 </div>
-
-<a href="#helpmodal" rel="modal:open"><img src="{% static "img/help.png" %}" alt="(?)"></a>
 
 <br><br>
 
