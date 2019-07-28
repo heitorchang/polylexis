@@ -5,5 +5,5 @@
 [OK] format style, remove link underline
 [NO] header breadcrumbs
 
-Duolingo Mandarin progress (next lesson)
+Mandarin progress (next part)
 08. Nation
