@@ -13,3 +13,5 @@ createsuperuser
 runserver
 
 template*
+
+projects/users/

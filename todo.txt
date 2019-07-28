@@ -4,6 +4,8 @@
 [OK] remember to add trailing slash after projects/ folders
 [OK] format style, remove link underline
 [NO] header breadcrumbs
-
+[  ] consider allowing users to use fileeditor,
+     check filename starts with projects/users/USERNAME
+     
 Mandarin progress (next part)
 08. Nation
