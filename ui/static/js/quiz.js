@@ -26,40 +26,44 @@ function shuffleArray(array) {
   }
 }
 
+function hide(elemId) {
+  document.getElementById(elemId).style.display = "none";
+}
+
+function show(elemId) {
+  document.getElementById(elemId).style.display = "inline";
+}
+
 document.getElementById("inorder").onclick = function () {
   questions = original_order.slice();
   current = 0;
   setup_question(current);
-  document.getElementById("reveal").style.display = "inline";
-  document.getElementById("advance").style.display = "none";
-  document.getElementById("backend").style.display = "none";
+  show("reveal");
+  hide("advance");
+  hide("backend");
+  input_textbox.focus();
 }
 
 document.getElementById("shuffled").onclick = function () {
   shuffleArray(questions);
   current = 0;
   setup_question(current);
-  document.getElementById("reveal").style.display = "inline";
-  document.getElementById("advance").style.display = "none";
-  document.getElementById("backend").style.display = "none";
-}
-
-function debug(msg) {
-  document.getElementById("debug").innerText = msg;
+  show("reveal");
+  hide("advance");
+  hide("backend");
+  input_textbox.focus();
 }
 
 function notice(msg) {
   if (msg === "") {
     msg = "&nbsp;";
   }
-  // document.getElementById("notice").innerHTML = msg;
   span_prompt.innerHTML = msg;
 }
 
 function setup_question(idx) {
   span_prompt.innerText = questions[current].prompt.join(" / ");
   span_cur_q.innerText = current + 1;
-  // notice("");
   input_textbox.value = "";
   input_textbox.focus();
 }
@@ -75,9 +79,8 @@ function advance(user_ans) {
     input_textbox.value = "";
     if (current === num_questions) {
       span_prompt.innerText = all_done;
-      document.getElementById("back").style.display = "inline";
-      document.getElementById("backend").style.display = "inline";
-      document.getElementById("reveal").style.display = "none";
+      show("backend");
+      hide("reveal");
       backend_button.focus();
     } else {
       setup_question(current);
@@ -106,13 +109,12 @@ function checkAns(user_ans) {
     } else {
       var all_accepted = "";
     }
-    notice('<span style="color: #393;"><b>Correto!</b></span> ' + all_accepted); 
-    advance_button.style.display = "inline";
-    reveal_button.style.display = "none";
+    notice('<span style="color: #393;"><b>Correto!</b></span> ' + all_accepted);
+    show("advance");
+    hide("reveal");
   } else {
-    // notice("");
-    advance_button.style.display = "none";
-    reveal_button.style.display = "inline";
+    show("reveal");
+    hide("advance");
   }
 }
 
