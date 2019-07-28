@@ -1,11 +1,11 @@
 Dias da semana
 ===
-Escreva em grego (obs. os dias começam com letras maiúsculas)
+Escreva em grego (obs. os dias começam com letras maiúsculas. Inclua o artigo ο, η, το)
 ===
-domingo*Κυριακή
-segunda-feira*Δευτέρα
-terça-feira*Τρίτη
-quarta-feira*Τετάρτη
-quinta-feira*Πέμπτη
-sexta-feira*Παρασκευή
-sábado*Σάββατο
+o domingo*η Κυριακή
+a segunda-feira*η Δευτέρα
+a terça-feira*η Τρίτη
+a quarta-feira*η Τετάρτη
+a quinta-feira*η Πέμπτη
+a sexta-feira*η Παρασκευή
+o sábado*το Σάββατο
