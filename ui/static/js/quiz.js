@@ -31,6 +31,7 @@ document.getElementById("inorder").onclick = function () {
   current = 0;
   setup_question(current);
   document.getElementById("reveal").style.display = "inline";
+  document.getElementById("advance").style.display = "none";
   document.getElementById("backend").style.display = "none";
 }
 
@@ -39,6 +40,7 @@ document.getElementById("shuffled").onclick = function () {
   current = 0;
   setup_question(current);
   document.getElementById("reveal").style.display = "inline";
+  document.getElementById("advance").style.display = "none";
   document.getElementById("backend").style.display = "none";
 }
 
@@ -50,13 +52,14 @@ function notice(msg) {
   if (msg === "") {
     msg = "&nbsp;";
   }
-  document.getElementById("notice").innerHTML = msg;
+  // document.getElementById("notice").innerHTML = msg;
+  span_prompt.innerHTML = msg;
 }
 
 function setup_question(idx) {
   span_prompt.innerText = questions[current].prompt.join(" / ");
   span_cur_q.innerText = current + 1;
-  notice("");
+  // notice("");
   input_textbox.value = "";
   input_textbox.focus();
 }
@@ -66,7 +69,7 @@ function advance(user_ans) {
   user_ans = user_ans.trim();
   if (questions[current].answer.indexOf(user_ans) >= 0) {
     current += 1;
-    notice("");
+    // notice("");
     advance_button.style.display = "none";
     reveal_button.style.display = "inline";
     input_textbox.value = "";
@@ -99,15 +102,15 @@ document.getElementById("reveal").onclick = function () {
 function checkAns(user_ans) {
   if (questions[current].answer.indexOf(user_ans) >= 0) {
     if (questions[current].answer.length > 1) {
-      var all_accepted = "<br>(Todas respostas aceitas: " + questions[current].answer.join(" / ") + ")";
+      var all_accepted = " (" + questions[current].answer.join(" / ") + ")";
     } else {
       var all_accepted = "";
     }
-    notice("Certo! Clique acima ou digite Enter" + all_accepted); 
+    notice('<span style="color: #393;"><b>Correto!</b></span> ' + all_accepted); 
     advance_button.style.display = "inline";
     reveal_button.style.display = "none";
   } else {
-    notice("");
+    // notice("");
     advance_button.style.display = "none";
     reveal_button.style.display = "inline";
   }

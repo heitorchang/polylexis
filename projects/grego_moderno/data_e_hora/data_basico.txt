@@ -3,5 +3,6 @@ Datas (o básico)
 Escreva em grego
 ===
 hoje*σήμερα
+dois de janeiro de dois mil e sete*στις δύο Ιανουαρίου του δύο χιλιάδες επτά/στις δύο Ιανουαρίου του δύο χιλιάδες εφτά
 ontem*χθες/χτες
 amanhã*αύριο
