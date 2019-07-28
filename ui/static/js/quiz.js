@@ -76,30 +76,40 @@ function advance(user_ans) {
 advance_button.onclick = function () {
   advance(input_textbox.value);
 }
-  
+
+document.getElementById("reveal").onclick = function () {
+  input_textbox.value = questions[current].answer[0];
+  input_textbox.focus();
+  checkAns(input_textbox.value.trim());
+}
+
+function checkAns(user_ans) {
+  if (questions[current].answer.indexOf(user_ans) >= 0) {
+    if (questions[current].answer.length > 1) {
+      var all_accepted = "<br>(Todas respostas aceitas: " + questions[current].answer.join(" / ") + ")";
+    } else {
+      var all_accepted = "";
+    }
+    notice("Certo! Digite Enter ou clique abaixo" + all_accepted); 
+    advance_button.style.display = "inline";
+  } else {
+    notice("");
+    advance_button.style.display = "none";
+  }
+}
+
 setup_question(current);
 
 document.getElementById("textbox").onkeyup = function (e) {
-  if (input_textbox.value.indexOf('=') >= 0 && current < num_questions) {
+  if ((input_textbox.value.indexOf('$') >= 0 || input_textbox.value.indexOf('=') >= 0) && current < num_questions) {
     input_textbox.value = questions[current].answer[0];
   }
   if (current < num_questions) {
     var user_ans = input_textbox.value;
     user_ans = user_ans.trim();
-
-    if (questions[current].answer.indexOf(user_ans) >= 0) {
-      if (questions[current].answer.length > 1) {
-        var all_accepted = "<br>(Todas respostas aceitas: " + questions[current].answer.join(" / ") + ")";
-      } else {
-        var all_accepted = "";
-      }
-      notice("Certo! Digite Enter ou clique abaixo" + all_accepted); 
-      advance_button.style.display = "inline";
-    } else {
-      notice("");
-      advance_button.style.display = "none";
-    }
-
+    
+    checkAns(user_ans);
+    
     if (e.keyCode === 13) {
       advance(user_ans);
     }
@@ -116,22 +126,7 @@ $("#textbox").bind("propertychange change input paste", function () {
     var user_ans = input_textbox.value;
     user_ans = user_ans.trim();
 
-    if (questions[current].answer.indexOf(user_ans) >= 0) {
-      if (questions[current].answer.length > 1) {
-        var all_accepted = "<br>(Todas respostas aceitas: " + questions[current].answer.join(" / ") + ")";
-      } else {
-        var all_accepted = "";
-      }
-      notice("Certo! Digite Enter ou clique abaixo" + all_accepted); 
-      advance_button.style.display = "inline";
-    } else {
-      notice("");
-      advance_button.style.display = "none";
-    }
-
-    if (e.keyCode === 13) {
-      advance(user_ans);
-    }
+    checkAns(user_ans);
   }  
 });
 

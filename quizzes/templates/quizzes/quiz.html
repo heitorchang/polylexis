@@ -1,27 +1,41 @@
 {% extends "ui/base.html" %}
 {% load static %}
+{% block stylesheet %}
+<link rel="stylesheet" href="{% static "css/jquery.modal.min.css" %}">
+{% endblock %}
+
 {% block content %}
 <div class="ctr">
+
 <span id="back"><a href="{% url "dirlist" dirname=dirname %}"><img src="{% static "img/back.png" %}" alt="back arrow"></a></span>
 <br>
 
-{{ description }} <a href="{% url "answers" dirname=dirname filename=filename %}"><br>
-<img src="{% static "img/list.png" %}" alt="list">Ver respostas</a>
+{{ description }}
 
 <br><br>
-<button id="inorder">Reset (em ordem)</button>
-<button id="shuffled">Reset (embaralhado)</button>
-<button id="swap">Trocar pergunta / resposta</button>
+<button id="inorder"><img src="{% static "img/restart.png" %}" alt="round arrow"></button>
+<button id="shuffled"><img src="{% static "img/shuffle.png" %}" alt="colored arrows"></button>
+<button id="swap"><img src="{% static "img/swap.png" %}" alt="A to B"></button>
+
+<div id="helpmodal" class="modal">
+<img src="{% static "img/restart.png" %}" alt="round arrow"> Voltar ao início (palavras em ordem)<br>
+<img src="{% static "img/shuffle.png" %}" alt="colored arrows"> Voltar ao início (palavras embaralhadas)<br>
+<img src="{% static "img/swap.png" %}" alt="A to B"> Trocar palavras visíveis com respostas<br>
+<img src="{% static "img/write.png" %}" alt="A pencil"> Revelar resposta (ou digite $ na caixa de texto)
+</div>
+
+<a href="#helpmodal" rel="modal:open"><img src="{% static "img/help.png" %}" alt="(?)"></a>
 
 <br><br>
-
-Digite = (igual) abaixo para revelar resposta<br>
 
 Pergunta <span id="cur_q"></span> / <span id="num_q"></span>
-    <br><br>
+    <br>
     <span id="prompt"></span>
     <br>
+
     <input id="textbox" size="30">
+    <button id="reveal"><img src="{% static "img/write.png" %}" alt="A pencil"></button>
+
     <br>
 
     <span id="backend" style="display: none;"><a href="{% url "dirlist" dirname=dirname %}"><img src="{% static "img/back.png" %}" alt="back arrow"></a></span><br>
@@ -42,4 +56,5 @@ var questions = [
 ];
 </script>
 <script src="{% static "js/quiz.js" %}"></script>
+<script src="{% static "js/jquery.modal.min.js" %}"></script>
 {% endblock %}
