@@ -28,12 +28,14 @@ document.getElementById("inorder").onclick = function () {
   questions = original_order.slice();
   current = 0;
   setup_question(current);
+  document.getElementById("backend").style.display = "none";
 }
 
 document.getElementById("shuffled").onclick = function () {
   shuffleArray(questions);
   current = 0;
   setup_question(current);
+  document.getElementById("backend").style.display = "none";
 }
 
 function debug(msg) {
