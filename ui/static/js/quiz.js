@@ -66,6 +66,8 @@ function setup_question(idx) {
   span_cur_q.innerText = current + 1;
   input_textbox.value = "";
   input_textbox.focus();
+  show("reveal");
+  hide("advance");
 }
 
 function advance(user_ans) {
