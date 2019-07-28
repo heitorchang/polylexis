@@ -79,7 +79,6 @@ advance_button.onclick = function () {
 
 document.getElementById("reveal").onclick = function () {
   input_textbox.value = questions[current].answer[0];
-  input_textbox.focus();
   checkAns(input_textbox.value.trim());
 }
 
