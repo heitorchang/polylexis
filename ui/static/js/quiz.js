@@ -113,6 +113,7 @@ function checkAns(user_ans) {
     show("advance");
     hide("reveal");
   } else {
+    span_prompt.innerText = questions[current].prompt.join(" / ");
     show("reveal");
     hide("advance");
   }
