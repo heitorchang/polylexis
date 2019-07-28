@@ -10,6 +10,8 @@ var current = 0;
 var num_questions = questions.length;
 
 var advance_button = document.getElementById("advance");
+var reveal_button = document.getElementById("reveal");
+var backend_button = document.getElementById("backend");
 
 document.getElementById("num_q").innerText = num_questions;
 
@@ -28,6 +30,7 @@ document.getElementById("inorder").onclick = function () {
   questions = original_order.slice();
   current = 0;
   setup_question(current);
+  document.getElementById("reveal").style.display = "inline";
   document.getElementById("backend").style.display = "none";
 }
 
@@ -35,6 +38,7 @@ document.getElementById("shuffled").onclick = function () {
   shuffleArray(questions);
   current = 0;
   setup_question(current);
+  document.getElementById("reveal").style.display = "inline";
   document.getElementById("backend").style.display = "none";
 }
 
@@ -64,11 +68,14 @@ function advance(user_ans) {
     current += 1;
     notice("");
     advance_button.style.display = "none";
+    reveal_button.style.display = "inline";
     input_textbox.value = "";
     if (current === num_questions) {
       span_prompt.innerText = all_done;
       document.getElementById("back").style.display = "inline";
       document.getElementById("backend").style.display = "inline";
+      document.getElementById("reveal").style.display = "none";
+      backend_button.focus();
     } else {
       setup_question(current);
     }
@@ -79,9 +86,14 @@ advance_button.onclick = function () {
   advance(input_textbox.value);
 }
 
+backend_button.onclick = function () {
+  window.location.href = './';
+}
+
 document.getElementById("reveal").onclick = function () {
   input_textbox.value = questions[current].answer[0];
   checkAns(input_textbox.value.trim());
+  advance_button.focus();
 }
 
 function checkAns(user_ans) {
@@ -93,9 +105,11 @@ function checkAns(user_ans) {
     }
     notice("Certo! Clique acima ou digite Enter" + all_accepted); 
     advance_button.style.display = "inline";
+    reveal_button.style.display = "none";
   } else {
     notice("");
     advance_button.style.display = "none";
+    reveal_button.style.display = "inline";
   }
 }
 

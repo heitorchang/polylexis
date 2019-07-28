@@ -33,12 +33,10 @@ Pergunta <span id="cur_q"></span> / <span id="num_q"></span>
     <span id="prompt"></span>
     <br>
 
-    <input id="textbox" size="30">
+    <input id="textbox" size="30"><br>
     <button id="reveal"><img src="{% static "img/wizard.png" %}" alt="wand"></button>
 
-    <br>
-    <span id="backend" style="display: none;"><a href="{% url "dirlist" dirname=dirname %}"><img src="{% static "img/back.png" %}" alt="back arrow"></a></span>
-    
+    <button id="backend" style="display: none;"><img src="{% static "img/back.png" %}" alt="back arrow"></button>
 
     <button id="advance" style="display: none;">Continuar</button>
     <br>
