@@ -19,10 +19,14 @@
 <a href="#helpmodal" rel="modal:open"><img src="{% static "img/help.png" %}" alt="(?)"></a>
 
 <div id="helpmodal" class="modal">
-<img src="{% static "img/restart.png" %}" alt="round arrow"> Voltar ao início (palavras em ordem)<br>
-<img src="{% static "img/shuffle.png" %}" alt="colored arrows"> Voltar ao início (palavras embaralhadas)<br>
-<img src="{% static "img/swap.png" %}" alt="A to B"> Trocar palavras visíveis com respostas<br>
-Digitar $ ou = na caixa de texto revela a resposta.
+  <img src="{% static "img/restart.png" %}" alt="round arrow"> Reiniciar (em ordem)<br>
+  <img src="{% static "img/shuffle.png" %}" alt="colored arrows"> Reiniciar (embaralhado)<br>
+  <img src="{% static "img/swap.png" %}" alt="A to B"> Trocar visível/escondido
+  
+  <ul>
+    <li>Digite $ ou = para revelar a resposta</li>
+    <li>Com resposta correta, digite Enter para continuar</li>
+  </ul>
 </div>
 
 <br><br>
