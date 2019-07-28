@@ -1,7 +1,7 @@
 var title = "Useful phrases (remember to capitalize the first letter)";
                 
 var original_order = questions.slice();
-var all_done = "Fim! Digite Enter para voltar";
+var all_done = "Fim! Clique na flecha ou digite Enter para voltar";
 
 var span_prompt = document.getElementById("prompt");
 var input_textbox = document.getElementById("textbox");
@@ -89,7 +89,7 @@ function checkAns(user_ans) {
     } else {
       var all_accepted = "";
     }
-    notice("Certo! Digite Enter ou clique abaixo" + all_accepted); 
+    notice("Certo! Clique acima ou digite Enter" + all_accepted); 
     advance_button.style.display = "inline";
   } else {
     notice("");

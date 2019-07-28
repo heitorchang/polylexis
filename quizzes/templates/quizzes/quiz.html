@@ -26,7 +26,7 @@
 
 <a href="#helpmodal" rel="modal:open"><img src="{% static "img/help.png" %}" alt="(?)"></a>
 
-<br><br>
+<br>
 
 Pergunta <span id="cur_q"></span> / <span id="num_q"></span>
     <br>
@@ -37,12 +37,12 @@ Pergunta <span id="cur_q"></span> / <span id="num_q"></span>
     <button id="reveal"><img src="{% static "img/wizard.png" %}" alt="wand"></button>
 
     <br>
-
-    <span id="backend" style="display: none;"><a href="{% url "dirlist" dirname=dirname %}"><img src="{% static "img/back.png" %}" alt="back arrow"></a></span><br>
+    <span id="backend" style="display: none;"><a href="{% url "dirlist" dirname=dirname %}"><img src="{% static "img/back.png" %}" alt="back arrow"></a></span>
     
-    <div id="notice"></div>
 
     <button id="advance" style="display: none;">Continuar</button>
+    <br>
+    <div id="notice"></div>
 
     <div id="debug"></div>
 
