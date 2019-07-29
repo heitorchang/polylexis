@@ -4,6 +4,14 @@ from pathlib import Path
 from collections import OrderedDict
 
 
+def breadcrumbs(f):
+    out = []
+    dirs = f.split('/')
+    for i, d in enumerate(dirs):
+        out.append((dirs[i], '/'.join(dirs[:i+1])))
+    return out
+
+
 def dirlist(dirname):
     curdir = Path(os.getcwd()).as_posix() + "/" + dirname
 
@@ -28,4 +36,5 @@ def dirlist(dirname):
     return {'dirs_links': dirs_links,
             'files_links': files_links,
             'pardir': pardir,
-            'shortdir': shortdir,}
+            'shortdir': shortdir,
+            'breadcrumbs': breadcrumbs(shortdir),}
