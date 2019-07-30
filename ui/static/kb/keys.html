@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Greek keyboard</title>
+<style>
+.kb {
+border: 0px;
+}
+
+.kb td {
+width: 24px;
+height: 24px;
+text-align: center;
+font-size: 18px;
+border-radius: 5px;
+padding: 3px;
+}
+
+.key {
+border: 2px solid #33C;
+}
+
+.ctrl {
+border: 2px solid #191;
+}
+
+.del {
+border: 2px solid #C33;
+}
+
+</style>
+</head>
+<body>
+<!--
+a b g d e
+. . . . .
+. . . . .
+  CpAcApBs
+Cp = Caps
+Ac = Accented vowels
+Ap = Apostrophe
+Bs = Backspace
+-->
+<input id="textbox" size="18">
+
+<table id="lowertbl" class="kb" border="1">
+<tr>
+<td class="key" onclick="addLetter('α');">α</td>
+<td class="key" onclick="addLetter('β');">β</td>
+<td class="key" onclick="addLetter('γ');">γ</td>
+<td class="key" onclick="addLetter('δ');">δ</td>
+<td class="key" onclick="addLetter('ε');">ε</td>
+<td class="key" onclick="addLetter('ζ');">ζ</td>
+</tr>
+
+<tr>
+<td class="key" onclick="addLetter('η');">η</td>
+<td class="key" onclick="addLetter('θ');">θ</td>
+<td class="key" onclick="addLetter('ι');">ι</td>
+<td class="key" onclick="addLetter('κ');">κ</td>
+<td class="key" onclick="addLetter('λ');">λ</td>
+<td class="key" onclick="addLetter('μ');">μ</td>
+</tr>
+
+<tr>
+<td class="key" onclick="addLetter('ν');">ν</td>
+<td class="key" onclick="addLetter('ξ');">ξ</td>
+<td class="key" onclick="addLetter('ο');">ο</td>
+<td class="key" onclick="addLetter('π');">π</td>
+<td class="key" onclick="addLetter('ρ');">ρ</td>
+<td class="key" onclick="addLetter('σ');">σ</td>
+</tr>
+
+<tr>
+<td class="key" onclick="addLetter('ς');">ς</td>
+<td class="key" onclick="addLetter('τ');">τ</td>
+<td class="key" onclick="addLetter('υ');">υ</td>
+<td class="key" onclick="addLetter('φ');">φ</td>
+<td class="key" onclick="addLetter('χ');">χ</td>
+<td class="key" onclick="addLetter('ψ');">ψ</td>
+</tr>
+
+<tr>
+<td class="key" onclick="addLetter('ω');">ω</td>
+<td class="ctrl"><img src="/static/img/caps.png" alt="caps"></td>
+<td class="ctrl"><img src="/static/img/accent.png" alt="acc"</td>
+<td class="ctrl"><img src="/static/img/apostrophe.png" alt="apostr"></td>
+<td class="key" onclick="backspace();"><img src="/static/img/bs.png" alt="bs"></td>
+<td class="del" onclick="clr();"><img src="/static/img/x.png" alt="x"></td>
+</tr>
+</table>
+
+
+<table id="capstbl" class="kb" border="1" style="display: inline-block;">
+<tr>
+<td class="key" onclick="addLetter('Α');">Α</td>
+<td class="key" onclick="addLetter('Β');">Β</td>
+<td class="key" onclick="addLetter('Γ');">Γ</td>
+<td class="key" onclick="addLetter('Δ');">Δ</td>
+<td class="key" onclick="addLetter('Ε');">Ε</td>
+<td class="key" onclick="addLetter('Ζ');">Ζ</td>
+</tr>
+
+<tr>
+<td class="key" onclick="addLetter('Η');">Η</td>
+<td class="key" onclick="addLetter('Θ');">Θ</td>
+<td class="key" onclick="addLetter('Ι');">Ι</td>
+<td class="key" onclick="addLetter('Κ');">Κ</td>
+<td class="key" onclick="addLetter('Λ');">Λ</td>
+<td class="key" onclick="addLetter('Μ');">Μ</td>
+</tr>
+
+<tr>
+<td class="key" onclick="addLetter('Ν');">Ν</td>
+<td class="key" onclick="addLetter('Ξ');">Ξ</td>
+<td class="key" onclick="addLetter('Ο');">Ο</td>
+<td class="key" onclick="addLetter('Π');">Π</td>
+<td class="key" onclick="addLetter('Ρ');">Ρ</td>
+<td class="key" onclick="addLetter('Σ');">Σ</td>
+</tr>
+
+<tr>
+<td class="key" onclick="addLetter('Σ');">Σ</td>
+<td class="key" onclick="addLetter('Τ');">Τ</td>
+<td class="key" onclick="addLetter('Υ');">Υ</td>
+<td class="key" onclick="addLetter('Φ');">Φ</td>
+<td class="key" onclick="addLetter('Χ');">Χ</td>
+<td class="key" onclick="addLetter('Ψ');">Ψ</td>
+</tr>
+
+<tr>
+<td class="key" onclick="addLetter('Ω');">Ω</td>
+<td class="ctrl"><img src="/static/img/caps.png" alt="caps"></td>
+<td class="ctrl"><img src="/static/img/accent.png" alt="acc"</td>
+<td class="ctrl"><img src="/static/img/apostrophe.png" alt="apostr"></td>
+<td class="key" onclick="backspace();"><img src="/static/img/bs.png" alt="bs"></td>
+<td class="del" onclick="clr();"><img src="/static/img/x.png" alt="x"></td>
+</tr>
+</table>
+
+<script>
+var inp = document.getElementById("textbox");
+
+function addLetter(letter) {
+  var caretPos = inp.selectionStart;
+  var text = inp.value;
+  // insert Greek letter, [0] refers to lowercase in keymap's array
+  text = text.slice(0, caretPos) + letter + text.slice(caretPos);
+  inp.value = text;
+  inp.setSelectionRange(caretPos+1, caretPos+1);
+}
+
+function backspace() {
+  var caretPos = inp.selectionStart;
+  var newPos = caretPos - 1;
+  if (caretPos > 0) {
+    var text = inp.value;
+    text = text.slice(0, newPos) + text.slice(caretPos);
+    inp.value = text;
+    inp.setSelectionRange(newPos, newPos);
+  }
+}
+
+function clr() {
+  inp.value = "";
+}
+
+function showkb(name) {
+  // hide all
+
+  // show selected
+}
+  
+</script>
+</body>
+</html>
