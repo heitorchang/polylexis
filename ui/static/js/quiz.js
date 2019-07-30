@@ -1,7 +1,7 @@
 var title = "Useful phrases (remember to capitalize the first letter)";
                 
 var original_order = questions.slice();
-var all_done = "Fim! Clique na flecha ou digite Enter para voltar";
+var all_done = "Fim da lista!";
 
 var span_prompt = document.getElementById("prompt");
 var input_textbox = document.getElementById("textbox");
