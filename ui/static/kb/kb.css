@@ -1,28 +1,29 @@
-.kb {
-border: 0px;
+.kb table {
+    border: 0px;
+    border-collapse: separate;
 }
 
 .kb td {
-width: 24px;
-height: 24px;
-text-align: center;
-font-size: 18px;
-border-radius: 5px;
-padding: 3px;
+    width: 24px;
+    height: 24px;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 5px;
+    padding: 3px;
 }
 
 .key {
-border: 2px solid #33C;
+    border: 2px solid #33C;
 }
 
 .ctrl {
-border: 2px solid #191;
+    border: 2px solid #191;
 }
 
 .del {
-border: 2px solid #C33;
+    border: 2px solid #C33;
 }
 
 .disabled {
-background-color: #AAA;
+    background-color: #AAA;
 }

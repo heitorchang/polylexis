@@ -76,10 +76,6 @@ img {
     display: none;
 }
 
-table {
-    border-collapse: collapse;
-}
-
 .ans tr:nth-child(even) {
     background-color: #DEF;
 }
