@@ -13,6 +13,7 @@ function addLetter(letter) {
   capson = false;
   accenton = false;
   showkb();
+  checkAns(text);
 }
 
 function backspace() {
@@ -24,6 +25,7 @@ function backspace() {
     inp.value = text;
     inp.setSelectionRange(newPos, newPos);
     inp.blur();
+    checkAns(text);
   }
 }
 

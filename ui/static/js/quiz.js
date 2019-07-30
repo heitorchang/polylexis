@@ -105,6 +105,10 @@ document.getElementById("reveal").onclick = function () {
 }
 
 function checkAns(user_ans) {
+  // remove extra spaces between words
+  user_ans = user_ans.trim();
+  user_ans = user_ans.replace(/\s+/g, " ");
+  
   if (questions[current].answer.indexOf(user_ans) >= 0) {
     if (questions[current].answer.length > 1) {
       var all_accepted = " (" + questions[current].answer.join(" / ") + ")";
@@ -129,7 +133,6 @@ document.getElementById("textbox").onkeyup = function (e) {
   }
   if (current < num_questions) {
     var user_ans = input_textbox.value;
-    user_ans = user_ans.trim();
     
     checkAns(user_ans);
     
