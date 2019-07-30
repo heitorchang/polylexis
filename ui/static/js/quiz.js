@@ -73,6 +73,7 @@ function setup_question(idx) {
 function advance(user_ans) {
   // check if answer is correct and advance current if true
   user_ans = user_ans.trim();
+  user_ans = user_ans.replace(/\s+/g, " ");
   if (questions[current].answer.indexOf(user_ans) >= 0) {
     current += 1;
     // notice("");
