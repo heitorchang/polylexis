@@ -8,11 +8,6 @@
 <div class="ctr">
 
 <span id="back"><a href="{% url "dirlist" dirname=dirname %}"><img src="{% static "img/back.png" %}" alt="back arrow"></a></span>
-<br>
-
-{{ description }}
-
-<br><br>
 <img src="{% static "img/restart.png" %}" alt="round arrow" id="inorder">&nbsp;
 <img src="{% static "img/shuffle.png" %}" alt="colored arrows" id="shuffled">&nbsp;
 <img src="{% static "img/swap.png" %}" alt="A to B" id="swap">&nbsp;
@@ -29,17 +24,24 @@
   </ul>
 </div>
 
-<br><br>
+<br>
 
-    Pergunta <span id="cur_q"></span> / <span id="num_q"></span>
-    <br>
+{{ description }}
+
+<br>
+
+    <span id="cur_q"></span>/<span id="num_q"></span>
 
     <button id="reveal">Ver resposta</button>
     <button id="backend" style="display: none;"><img src="{% static "img/back.png" %}" alt="back arrow"></button>
     <button id="advance" style="display: none;">Continuar</button>
-    <br><br>
+
+
+
+<br>
 
     <span id="prompt"></span>
+ 
     <br>
 
     <input id="textbox" size="30">
