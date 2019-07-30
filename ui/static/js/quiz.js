@@ -41,7 +41,7 @@ document.getElementById("inorder").onclick = function () {
   show("reveal");
   hide("advance");
   hide("backend");
-  input_textbox.focus();
+  // input_textbox.focus();
 }
 
 document.getElementById("shuffled").onclick = function () {
@@ -51,7 +51,7 @@ document.getElementById("shuffled").onclick = function () {
   show("reveal");
   hide("advance");
   hide("backend");
-  input_textbox.focus();
+  // input_textbox.focus();
 }
 
 function notice(msg) {
@@ -65,7 +65,7 @@ function setup_question(idx) {
   span_prompt.innerText = questions[current].prompt.join(" / ");
   span_cur_q.innerText = current + 1;
   input_textbox.value = "";
-  input_textbox.focus();
+  // input_textbox.focus();
   show("reveal");
   hide("advance");
 }
@@ -139,6 +139,7 @@ document.getElementById("textbox").onkeyup = function (e) {
     
     if (e.keyCode === 13) {
       advance(user_ans);
+      input_textbox.focus();
     }
   } else {
     if (span_prompt.innerText === all_done && e.keyCode === 13) {
