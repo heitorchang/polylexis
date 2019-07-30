@@ -2,6 +2,7 @@
 {% load static %}
 {% block stylesheet %}
 <link rel="stylesheet" href="{% static "css/jquery.modal.min.css" %}">
+<link rel="stylesheet" href="{% static "kb/kb.css" %}">
 {% endblock %}
 
 {% block content %}
@@ -50,6 +51,215 @@
     <div id="notice"></div>
     <div id="debug"></div>
 
+<table id="lowertbl" class="kb" border="1" style="display: inline-block;">
+<tr>
+<td class="key" onclick="addLetter('α');">α</td>
+<td class="key" onclick="addLetter('β');">β</td>
+<td class="key" onclick="addLetter('γ');">γ</td>
+<td class="key" onclick="addLetter('δ');">δ</td>
+<td class="key" onclick="addLetter('ε');">ε</td>
+<td class="key" onclick="addLetter('ζ');">ζ</td>
+</tr>
+
+<tr>
+<td class="key" onclick="addLetter('η');">η</td>
+<td class="key" onclick="addLetter('θ');">θ</td>
+<td class="key" onclick="addLetter('ι');">ι</td>
+<td class="key" onclick="addLetter('κ');">κ</td>
+<td class="key" onclick="addLetter('λ');">λ</td>
+<td class="key" onclick="addLetter('μ');">μ</td>
+</tr>
+
+<tr>
+<td class="key" onclick="addLetter('ν');">ν</td>
+<td class="key" onclick="addLetter('ξ');">ξ</td>
+<td class="key" onclick="addLetter('ο');">ο</td>
+<td class="key" onclick="addLetter('π');">π</td>
+<td class="key" onclick="addLetter('ρ');">ρ</td>
+<td class="key" onclick="addLetter('σ');">σ</td>
+</tr>
+
+<tr>
+<td class="key" onclick="addLetter('ς');">ς</td>
+<td class="key" onclick="addLetter('τ');">τ</td>
+<td class="key" onclick="addLetter('υ');">υ</td>
+<td class="key" onclick="addLetter('φ');">φ</td>
+<td class="key" onclick="addLetter('χ');">χ</td>
+<td class="key" onclick="addLetter('ψ');">ψ</td>
+</tr>
+
+<tr>
+<td class="key" onclick="addLetter('ω');">ω</td>
+<td class="ctrl" onclick="togglecaps();"><img src="/static/img/caps.png" alt="caps"></td>
+<td class="ctrl" onclick="toggleaccent();"><img src="/static/img/accent.png" alt="acc"</td>
+<td class="key" onclick="addLetter('\'');"><img src="/static/img/apostrophe.png" alt="apostr"></td>
+<td class="key" onclick="backspace();"><img src="/static/img/bs.png" alt="bs"></td>
+</tr>
+
+<tr>
+<td class="key" colspan="5" onclick="addLetter(' ');">espaço</td>
+<td class="del" onclick="clr();"><img src="/static/img/x.png" alt="x"></td>
+</tr>
+</table>
+
+
+<table id="lowertblaccent" class="kb" border="1" style="display: none;">
+<tr>
+<td class="key" onclick="addLetter('ά');">ά</td>
+<td class="key disabled">&nbsp;</td>
+<td class="key disabled">&nbsp;</td>
+<td class="key disabled">&nbsp;</td>
+<td class="key" onclick="addLetter('έ');">έ</td>
+<td class="key disabled">&nbsp;</td>
+</tr>
+
+<tr>
+<td class="key" onclick="addLetter('ή');">ή</td>
+<td class="key disabled">&nbsp;</td>
+<td class="key" onclick="addLetter('ί');">ί</td>
+<td class="key" onclick="addLetter('ϊ');">ϊ</td>
+<td class="key" onclick="addLetter('ΐ');">ΐ</td>
+<td class="key disabled">&nbsp;</td>
+</tr>
+
+<tr>
+<td class="key disabled">&nbsp;</td>
+<td class="key disabled">&nbsp;</td>
+<td class="key" onclick="addLetter('ό');">ό</td>
+<td class="key disabled">&nbsp;</td>
+<td class="key disabled">&nbsp;</td>
+<td class="key disabled">&nbsp;</td>
+</tr>
+
+<tr>
+<td class="key disabled">&nbsp;</td>
+<td class="key disabled">&nbsp;</td>
+<td class="key" onclick="addLetter('ύ');">ύ</td>
+<td class="key" onclick="addLetter('ϋ');">ϋ</td>
+<td class="key" onclick="addLetter('ΰ');">ΰ</td>
+<td class="key disabled">&nbsp;</td>
+</tr>
+
+<tr>
+<td class="key" onclick="addLetter('ώ');">ώ</td>
+<td class="ctrl" onclick="togglecaps();"><img src="/static/img/caps.png" alt="caps"></td>
+<td class="ctrl" onclick="toggleaccent();"><img src="/static/img/accent.png" alt="acc"</td>
+<td class="key" onclick="addLetter('\'');"><img src="/static/img/apostrophe.png" alt="apostr"></td>
+<td class="key" onclick="backspace();"><img src="/static/img/bs.png" alt="bs"></td>
+</tr>
+
+<tr>
+<td class="key" colspan="5" onclick="addLetter(' ');">espaço</td>
+<td class="del" onclick="clr();"><img src="/static/img/x.png" alt="x"></td>
+</tr>
+</table>
+
+
+<table id="capstbl" class="kb" border="1" style="display: none;">
+<tr>
+<td class="key" onclick="addLetter('Α');">Α</td>
+<td class="key" onclick="addLetter('Β');">Β</td>
+<td class="key" onclick="addLetter('Γ');">Γ</td>
+<td class="key" onclick="addLetter('Δ');">Δ</td>
+<td class="key" onclick="addLetter('Ε');">Ε</td>
+<td class="key" onclick="addLetter('Ζ');">Ζ</td>
+</tr>
+
+<tr>
+<td class="key" onclick="addLetter('Η');">Η</td>
+<td class="key" onclick="addLetter('Θ');">Θ</td>
+<td class="key" onclick="addLetter('Ι');">Ι</td>
+<td class="key" onclick="addLetter('Κ');">Κ</td>
+<td class="key" onclick="addLetter('Λ');">Λ</td>
+<td class="key" onclick="addLetter('Μ');">Μ</td>
+</tr>
+
+<tr>
+<td class="key" onclick="addLetter('Ν');">Ν</td>
+<td class="key" onclick="addLetter('Ξ');">Ξ</td>
+<td class="key" onclick="addLetter('Ο');">Ο</td>
+<td class="key" onclick="addLetter('Π');">Π</td>
+<td class="key" onclick="addLetter('Ρ');">Ρ</td>
+<td class="key" onclick="addLetter('Σ');">Σ</td>
+</tr>
+
+<tr>
+<td class="key" onclick="addLetter('Σ');">Σ</td>
+<td class="key" onclick="addLetter('Τ');">Τ</td>
+<td class="key" onclick="addLetter('Υ');">Υ</td>
+<td class="key" onclick="addLetter('Φ');">Φ</td>
+<td class="key" onclick="addLetter('Χ');">Χ</td>
+<td class="key" onclick="addLetter('Ψ');">Ψ</td>
+</tr>
+
+<tr>
+<td class="key" onclick="addLetter('Ω');">Ω</td>
+<td class="ctrl" onclick="togglecaps();"><img src="/static/img/caps.png" alt="caps"></td>
+<td class="ctrl" onclick="toggleaccent();"><img src="/static/img/accent.png" alt="acc"</td>
+<td class="key" onclick="addLetter('\'');"><img src="/static/img/apostrophe.png" alt="apostr"></td>
+<td class="key" onclick="backspace();"><img src="/static/img/bs.png" alt="bs"></td>
+</tr>
+
+<tr>
+<td class="key" colspan="5" onclick="addLetter(' ');">espaço</td>
+<td class="del" onclick="clr();"><img src="/static/img/x.png" alt="x"></td>
+</tr>
+</table>
+
+
+
+<table id="capstblaccent" class="kb" border="1" style="display: none;">
+<tr>
+<td class="key" onclick="addLetter('Ά');">Ά</td>
+<td class="key disabled">&nbsp;</td>
+<td class="key disabled">&nbsp;</td>
+<td class="key disabled">&nbsp;</td>
+<td class="key" onclick="addLetter('Έ');">Έ</td>
+<td class="key disabled">&nbsp;</td>
+</tr>
+
+<tr>
+<td class="key" onclick="addLetter('Ή');">Ή</td>
+<td class="key disabled">&nbsp;</td>
+<td class="key" onclick="addLetter('Ί');">Ί</td>
+<td class="key disabled">&nbsp;</td>
+<td class="key disabled">&nbsp;</td>
+<td class="key disabled">&nbsp;</td>
+</tr>
+
+<tr>
+<td class="key disabled">&nbsp;</td>
+<td class="key disabled">&nbsp;</td>
+<td class="key" onclick="addLetter('Ό');">Ό</td>
+<td class="key disabled">&nbsp;</td>
+<td class="key disabled">&nbsp;</td>
+<td class="key disabled">&nbsp;</td>
+</tr>
+
+<tr>
+<td class="key disabled">&nbsp;</td>
+<td class="key disabled">&nbsp;</td>
+<td class="key" onclick="addLetter('Ύ');">Ύ</td>
+<td class="key disabled">&nbsp;</td>
+<td class="key disabled">&nbsp;</td>
+<td class="key disabled">&nbsp;</td>
+</tr>
+
+<tr>
+<td class="key" onclick="addLetter('Ώ');">Ώ</td>
+<td class="ctrl" onclick="togglecaps();"><img src="/static/img/caps.png" alt="caps"></td>
+<td class="ctrl" onclick="toggleaccent();"><img src="/static/img/accent.png" alt="acc"</td>
+<td class="key" onclick="addLetter('\'');"><img src="/static/img/apostrophe.png" alt="apostr"></td>
+<td class="key" onclick="backspace();"><img src="/static/img/bs.png" alt="bs"></td>
+</tr>
+
+<tr>
+<td class="key" colspan="5" onclick="addLetter(' ');">espaço</td>
+<td class="del" onclick="clr();"><img src="/static/img/x.png" alt="x"></td>
+</tr>
+</table>
+
+
 </div>
 {% endblock %}
 
@@ -60,5 +270,6 @@ var questions = [
 ];
 </script>
 <script src="{% static "js/quiz.js" %}"></script>
+<script src="{% static "kb/kb.js" %}"></script>
 <script src="{% static "js/jquery.modal.min.js" %}"></script>
 {% endblock %}

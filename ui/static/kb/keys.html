@@ -4,33 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Greek keyboard</title>
-<style>
-.kb {
-border: 0px;
-}
-
-.kb td {
-width: 24px;
-height: 24px;
-text-align: center;
-font-size: 18px;
-border-radius: 5px;
-padding: 3px;
-}
-
-.key {
-border: 2px solid #33C;
-}
-
-.ctrl {
-border: 2px solid #191;
-}
-
-.del {
-border: 2px solid #C33;
-}
-
-</style>
+<link rel="stylesheet" href="/static/css/kb/kb.css">
 </head>
 <body>
 <!--
@@ -44,8 +18,8 @@ Ap = Apostrophe
 Bs = Backspace
 -->
 <input id="textbox" size="18">
-
-<table id="lowertbl" class="kb" border="1">
+<br>
+<table id="lowertbl" class="kb" border="1" style="display: inline-block;">
 <tr>
 <td class="key" onclick="addLetter('α');">α</td>
 <td class="key" onclick="addLetter('β');">β</td>
@@ -84,16 +58,72 @@ Bs = Backspace
 
 <tr>
 <td class="key" onclick="addLetter('ω');">ω</td>
-<td class="ctrl"><img src="/static/img/caps.png" alt="caps"></td>
-<td class="ctrl"><img src="/static/img/accent.png" alt="acc"</td>
-<td class="ctrl"><img src="/static/img/apostrophe.png" alt="apostr"></td>
+<td class="ctrl" onclick="togglecaps();"><img src="/static/img/caps.png" alt="caps"></td>
+<td class="ctrl" onclick="toggleaccent();"><img src="/static/img/accent.png" alt="acc"</td>
+<td class="key" onclick="addLetter('\'');"><img src="/static/img/apostrophe.png" alt="apostr"></td>
 <td class="key" onclick="backspace();"><img src="/static/img/bs.png" alt="bs"></td>
+</tr>
+
+<tr>
+<td class="key" colspan="5" onclick="addLetter(' ');">espaço</td>
 <td class="del" onclick="clr();"><img src="/static/img/x.png" alt="x"></td>
 </tr>
 </table>
 
 
-<table id="capstbl" class="kb" border="1" style="display: inline-block;">
+<table id="lowertblaccent" class="kb" border="1" style="display: none;">
+<tr>
+<td class="key" onclick="addLetter('ά');">ά</td>
+<td class="key disabled">&nbsp;</td>
+<td class="key disabled">&nbsp;</td>
+<td class="key disabled">&nbsp;</td>
+<td class="key" onclick="addLetter('έ');">έ</td>
+<td class="key disabled">&nbsp;</td>
+</tr>
+
+<tr>
+<td class="key" onclick="addLetter('ή');">ή</td>
+<td class="key disabled">&nbsp;</td>
+<td class="key" onclick="addLetter('ί');">ί</td>
+<td class="key" onclick="addLetter('ϊ');">ϊ</td>
+<td class="key" onclick="addLetter('ΐ');">ΐ</td>
+<td class="key disabled">&nbsp;</td>
+</tr>
+
+<tr>
+<td class="key disabled">&nbsp;</td>
+<td class="key disabled">&nbsp;</td>
+<td class="key" onclick="addLetter('ό');">ό</td>
+<td class="key disabled">&nbsp;</td>
+<td class="key disabled">&nbsp;</td>
+<td class="key disabled">&nbsp;</td>
+</tr>
+
+<tr>
+<td class="key disabled">&nbsp;</td>
+<td class="key disabled">&nbsp;</td>
+<td class="key" onclick="addLetter('ύ');">ύ</td>
+<td class="key" onclick="addLetter('ϋ');">ϋ</td>
+<td class="key" onclick="addLetter('ΰ');">ΰ</td>
+<td class="key disabled">&nbsp;</td>
+</tr>
+
+<tr>
+<td class="key" onclick="addLetter('ώ');">ώ</td>
+<td class="ctrl" onclick="togglecaps();"><img src="/static/img/caps.png" alt="caps"></td>
+<td class="ctrl" onclick="toggleaccent();"><img src="/static/img/accent.png" alt="acc"</td>
+<td class="key" onclick="addLetter('\'');"><img src="/static/img/apostrophe.png" alt="apostr"></td>
+<td class="key" onclick="backspace();"><img src="/static/img/bs.png" alt="bs"></td>
+</tr>
+
+<tr>
+<td class="key" colspan="5" onclick="addLetter(' ');">espaço</td>
+<td class="del" onclick="clr();"><img src="/static/img/x.png" alt="x"></td>
+</tr>
+</table>
+
+
+<table id="capstbl" class="kb" border="1" style="display: none;">
 <tr>
 <td class="key" onclick="addLetter('Α');">Α</td>
 <td class="key" onclick="addLetter('Β');">Β</td>
@@ -132,47 +162,71 @@ Bs = Backspace
 
 <tr>
 <td class="key" onclick="addLetter('Ω');">Ω</td>
-<td class="ctrl"><img src="/static/img/caps.png" alt="caps"></td>
-<td class="ctrl"><img src="/static/img/accent.png" alt="acc"</td>
-<td class="ctrl"><img src="/static/img/apostrophe.png" alt="apostr"></td>
+<td class="ctrl" onclick="togglecaps();"><img src="/static/img/caps.png" alt="caps"></td>
+<td class="ctrl" onclick="toggleaccent();"><img src="/static/img/accent.png" alt="acc"</td>
+<td class="key" onclick="addLetter('\'');"><img src="/static/img/apostrophe.png" alt="apostr"></td>
 <td class="key" onclick="backspace();"><img src="/static/img/bs.png" alt="bs"></td>
+</tr>
+
+<tr>
+<td class="key" colspan="5" onclick="addLetter(' ');">espaço</td>
 <td class="del" onclick="clr();"><img src="/static/img/x.png" alt="x"></td>
 </tr>
 </table>
 
-<script>
-var inp = document.getElementById("textbox");
 
-function addLetter(letter) {
-  var caretPos = inp.selectionStart;
-  var text = inp.value;
-  // insert Greek letter, [0] refers to lowercase in keymap's array
-  text = text.slice(0, caretPos) + letter + text.slice(caretPos);
-  inp.value = text;
-  inp.setSelectionRange(caretPos+1, caretPos+1);
-}
 
-function backspace() {
-  var caretPos = inp.selectionStart;
-  var newPos = caretPos - 1;
-  if (caretPos > 0) {
-    var text = inp.value;
-    text = text.slice(0, newPos) + text.slice(caretPos);
-    inp.value = text;
-    inp.setSelectionRange(newPos, newPos);
-  }
-}
+<table id="capstblaccent" class="kb" border="1" style="display: none;">
+<tr>
+<td class="key" onclick="addLetter('Ά');">Ά</td>
+<td class="key disabled">&nbsp;</td>
+<td class="key disabled">&nbsp;</td>
+<td class="key disabled">&nbsp;</td>
+<td class="key" onclick="addLetter('Έ');">Έ</td>
+<td class="key disabled">&nbsp;</td>
+</tr>
 
-function clr() {
-  inp.value = "";
-}
+<tr>
+<td class="key" onclick="addLetter('Ή');">Ή</td>
+<td class="key disabled">&nbsp;</td>
+<td class="key" onclick="addLetter('Ί');">Ί</td>
+<td class="key disabled">&nbsp;</td>
+<td class="key disabled">&nbsp;</td>
+<td class="key disabled">&nbsp;</td>
+</tr>
 
-function showkb(name) {
-  // hide all
+<tr>
+<td class="key disabled">&nbsp;</td>
+<td class="key disabled">&nbsp;</td>
+<td class="key" onclick="addLetter('Ό');">Ό</td>
+<td class="key disabled">&nbsp;</td>
+<td class="key disabled">&nbsp;</td>
+<td class="key disabled">&nbsp;</td>
+</tr>
 
-  // show selected
-}
-  
-</script>
+<tr>
+<td class="key disabled">&nbsp;</td>
+<td class="key disabled">&nbsp;</td>
+<td class="key" onclick="addLetter('Ύ');">Ύ</td>
+<td class="key disabled">&nbsp;</td>
+<td class="key disabled">&nbsp;</td>
+<td class="key disabled">&nbsp;</td>
+</tr>
+
+<tr>
+<td class="key" onclick="addLetter('Ώ');">Ώ</td>
+<td class="ctrl" onclick="togglecaps();"><img src="/static/img/caps.png" alt="caps"></td>
+<td class="ctrl" onclick="toggleaccent();"><img src="/static/img/accent.png" alt="acc"</td>
+<td class="key" onclick="addLetter('\'');"><img src="/static/img/apostrophe.png" alt="apostr"></td>
+<td class="key" onclick="backspace();"><img src="/static/img/bs.png" alt="bs"></td>
+</tr>
+
+<tr>
+<td class="key" colspan="5" onclick="addLetter(' ');">espaço</td>
+<td class="del" onclick="clr();"><img src="/static/img/x.png" alt="x"></td>
+</tr>
+</table>
+
+<script src="/static/kb/kb.js"></script>
 </body>
 </html>
