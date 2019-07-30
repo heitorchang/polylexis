@@ -9,7 +9,7 @@ function addLetter(letter) {
   text = text.slice(0, caretPos) + letter + text.slice(caretPos);
   inp.value = text;
   inp.setSelectionRange(caretPos+1, caretPos+1);
-
+  inp.blur();
   capson = false;
   accenton = false;
   showkb();
@@ -23,6 +23,7 @@ function backspace() {
     text = text.slice(0, newPos) + text.slice(caretPos);
     inp.value = text;
     inp.setSelectionRange(newPos, newPos);
+    inp.blur();
   }
 }
 
