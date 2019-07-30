@@ -29,11 +29,11 @@ img {
 }
 
 .navbar {
-    text-align: center;
+    text-align: left;
     color: white;
     background-color: #006;
     padding: 5px;
-    font-size: 0.7em;
+    font-size: 0.8em;
     font-weight: bold;
     margin: 0;
 }
