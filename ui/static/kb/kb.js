@@ -32,7 +32,7 @@ function backspace() {
 function clr() {
   inp.value = "";
   inp.blur();
-  checkAns(text);
+  checkAns(inp.value);
 }
 
 function hl(el) {
