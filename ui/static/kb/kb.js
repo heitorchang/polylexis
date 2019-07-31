@@ -31,6 +31,8 @@ function backspace() {
 
 function clr() {
   inp.value = "";
+  inp.blur();
+  checkAns(text);
 }
 
 function hl(el) {
