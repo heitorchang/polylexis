@@ -33,6 +33,12 @@ function clr() {
   inp.value = "";
 }
 
+function hl(el) {
+  $(el).addClass("hl");
+  window.setTimeout(function() {
+    $(el).removeClass("hl");
+  }, 75);
+}
 
 function togglecaps() {
   capson = !capson;
