@@ -4,7 +4,7 @@
 <div class="ctr">
 <span id="back"><a href="{% url "dirlist" dirname=dirname %}"><img src="{% static "img/back.png" %}" alt="back arrow"></a></span><br><br>
 
-{{ description }}
+{{ description|safe }}
 <br>
     <table id="allans" class="ctr ans" style="display: inline-block; border-collapse: collapse;">
 {{ allans_table|safe }}
