@@ -1,13 +1,13 @@
-O Básico
+Introdução
 ===
-Escreva em grego (com letras minúsculas)
+Escreva em grego (com letras minúsculas).<br><br>
+Algumas palavras podem ter mais de uma resposta.
 ===
-oi*γεια
+oi*γεια/γεια σου/γεια σας
 bom dia*καλημέρα
 boa tarde*καλό απόγευμα
 boa noite (ao se encontrar)*καλησπέρα
 boa noite (ao se despedir)*καληνύχτα
-tchau*γεια
 sim*ναι
 não*όχι
 tudo bem/ok*εντάξει/οκ
