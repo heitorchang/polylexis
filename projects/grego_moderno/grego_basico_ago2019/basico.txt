@@ -12,4 +12,4 @@ sim*ναι
 não*όχι
 tudo bem/ok*εντάξει/οκ
 por favor*παρακαλώ
-obrigado(a)*ευχαριστώ
+obrigado*ευχαριστώ
