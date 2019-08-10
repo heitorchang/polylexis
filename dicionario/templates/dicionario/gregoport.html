@@ -1,0 +1,269 @@
+{% extends "ui/base.html" %}
+{% load static %}
+
+{% block stylesheet %}
+<link rel="stylesheet" href="{% static "css/jquery.modal.min.css" %}">
+<link rel="stylesheet" href="{% static "kb/kb.css" %}">
+{% endblock %}
+
+{% block content %}
+<div class="ctr">
+
+Digite grego ou português<br>
+    <input id="textbox" size="30">
+    <br>
+
+<table id="lowertbl" class="kb" style="display: inline-block;">
+<tr>
+<td class="key" onclick="hl(this); addLetter('α');">α</td>
+<td class="key" onclick="hl(this); addLetter('β');">β</td>
+<td class="key" onclick="hl(this); addLetter('γ');">γ</td>
+<td class="key" onclick="hl(this); addLetter('δ');">δ</td>
+<td class="key" onclick="hl(this); addLetter('ε');">ε</td>
+<td class="key" onclick="hl(this); addLetter('ζ');">ζ</td>
+</tr>
+
+<tr>
+<td class="key" onclick="hl(this); addLetter('η');">η</td>
+<td class="key" onclick="hl(this); addLetter('θ');">θ</td>
+<td class="key" onclick="hl(this); addLetter('ι');">ι</td>
+<td class="key" onclick="hl(this); addLetter('κ');">κ</td>
+<td class="key" onclick="hl(this); addLetter('λ');">λ</td>
+<td class="key" onclick="hl(this); addLetter('μ');">μ</td>
+</tr>
+
+<tr>
+<td class="key" onclick="hl(this); addLetter('ν');">ν</td>
+<td class="key" onclick="hl(this); addLetter('ξ');">ξ</td>
+<td class="key" onclick="hl(this); addLetter('ο');">ο</td>
+<td class="key" onclick="hl(this); addLetter('π');">π</td>
+<td class="key" onclick="hl(this); addLetter('ρ');">ρ</td>
+<td class="key" onclick="hl(this); addLetter('σ');">σ</td>
+</tr>
+
+<tr>
+<td class="key" onclick="hl(this); addLetter('ς');">ς</td>
+<td class="key" onclick="hl(this); addLetter('τ');">τ</td>
+<td class="key" onclick="hl(this); addLetter('υ');">υ</td>
+<td class="key" onclick="hl(this); addLetter('φ');">φ</td>
+<td class="key" onclick="hl(this); addLetter('χ');">χ</td>
+<td class="key" onclick="hl(this); addLetter('ψ');">ψ</td>
+</tr>
+
+<tr>
+<td class="key" onclick="hl(this); addLetter('ω');">ω</td>
+<td class="ctrl" onclick="togglecaps();"><img src="/static/img/caps.png" alt="caps"></td>
+<td class="ctrl" onclick="toggleaccent();"><img src="/static/img/accent.png" alt="acc"></td>
+<td class="key" onclick="hl(this); addLetter('\'');"><img src="/static/img/apostrophe.png" alt="apostr"></td>
+<td class="key" onclick="hl(this); backspace();"><img src="/static/img/bs.png" alt="bs"></td>
+</tr>
+
+<tr>
+<td class="key" colspan="5" onclick="hl(this); addLetter(' ');">espaço</td>
+<td class="del" onclick="clr();"><img src="/static/img/x.png" alt="x"></td>
+</tr>
+</table>
+
+
+<table id="lowertblaccent" class="kb" style="display: none;">
+<tr>
+<td class="key" onclick="hl(this); addLetter('ά');">ά</td>
+<td class="key disabled">&nbsp;</td>
+<td class="key disabled">&nbsp;</td>
+<td class="key disabled">&nbsp;</td>
+<td class="key" onclick="hl(this); addLetter('έ');">έ</td>
+<td class="key disabled">&nbsp;</td>
+</tr>
+
+<tr>
+<td class="key" onclick="hl(this); addLetter('ή');">ή</td>
+<td class="key disabled">&nbsp;</td>
+<td class="key" onclick="hl(this); addLetter('ί');">ί</td>
+<td class="key" onclick="hl(this); addLetter('ϊ');">ϊ</td>
+<td class="key" onclick="hl(this); addLetter('ΐ');">ΐ</td>
+<td class="key disabled">&nbsp;</td>
+</tr>
+
+<tr>
+<td class="key disabled">&nbsp;</td>
+<td class="key disabled">&nbsp;</td>
+<td class="key" onclick="hl(this); addLetter('ό');">ό</td>
+<td class="key disabled">&nbsp;</td>
+<td class="key disabled">&nbsp;</td>
+<td class="key disabled">&nbsp;</td>
+</tr>
+
+<tr>
+<td class="key disabled">&nbsp;</td>
+<td class="key disabled">&nbsp;</td>
+<td class="key" onclick="hl(this); addLetter('ύ');">ύ</td>
+<td class="key" onclick="hl(this); addLetter('ϋ');">ϋ</td>
+<td class="key" onclick="hl(this); addLetter('ΰ');">ΰ</td>
+<td class="key disabled">&nbsp;</td>
+</tr>
+
+<tr>
+<td class="key" onclick="hl(this); addLetter('ώ');">ώ</td>
+<td class="ctrl" onclick="togglecaps();"><img src="/static/img/caps.png" alt="caps"></td>
+<td class="ctrl" onclick="toggleaccent();"><img src="/static/img/accent.png" alt="acc"></td>
+<td class="key" onclick="hl(this); addLetter('\'');"><img src="/static/img/apostrophe.png" alt="apostr"></td>
+<td class="key" onclick="hl(this); backspace();"><img src="/static/img/bs.png" alt="bs"></td>
+</tr>
+
+<tr>
+<td class="key" colspan="5" onclick="hl(this); addLetter(' ');">espaço</td>
+<td class="del" onclick="clr();"><img src="/static/img/x.png" alt="x"></td>
+</tr>
+</table>
+
+
+<table id="capstbl" class="kb" style="display: none;">
+<tr>
+<td class="key" onclick="hl(this); addLetter('Α');">Α</td>
+<td class="key" onclick="hl(this); addLetter('Β');">Β</td>
+<td class="key" onclick="hl(this); addLetter('Γ');">Γ</td>
+<td class="key" onclick="hl(this); addLetter('Δ');">Δ</td>
+<td class="key" onclick="hl(this); addLetter('Ε');">Ε</td>
+<td class="key" onclick="hl(this); addLetter('Ζ');">Ζ</td>
+</tr>
+
+<tr>
+<td class="key" onclick="hl(this); addLetter('Η');">Η</td>
+<td class="key" onclick="hl(this); addLetter('Θ');">Θ</td>
+<td class="key" onclick="hl(this); addLetter('Ι');">Ι</td>
+<td class="key" onclick="hl(this); addLetter('Κ');">Κ</td>
+<td class="key" onclick="hl(this); addLetter('Λ');">Λ</td>
+<td class="key" onclick="hl(this); addLetter('Μ');">Μ</td>
+</tr>
+
+<tr>
+<td class="key" onclick="hl(this); addLetter('Ν');">Ν</td>
+<td class="key" onclick="hl(this); addLetter('Ξ');">Ξ</td>
+<td class="key" onclick="hl(this); addLetter('Ο');">Ο</td>
+<td class="key" onclick="hl(this); addLetter('Π');">Π</td>
+<td class="key" onclick="hl(this); addLetter('Ρ');">Ρ</td>
+<td class="key" onclick="hl(this); addLetter('Σ');">Σ</td>
+</tr>
+
+<tr>
+<td class="key" onclick="hl(this); addLetter('Σ');">Σ</td>
+<td class="key" onclick="hl(this); addLetter('Τ');">Τ</td>
+<td class="key" onclick="hl(this); addLetter('Υ');">Υ</td>
+<td class="key" onclick="hl(this); addLetter('Φ');">Φ</td>
+<td class="key" onclick="hl(this); addLetter('Χ');">Χ</td>
+<td class="key" onclick="hl(this); addLetter('Ψ');">Ψ</td>
+</tr>
+
+<tr>
+<td class="key" onclick="hl(this); addLetter('Ω');">Ω</td>
+<td class="ctrl" onclick="togglecaps();"><img src="/static/img/caps.png" alt="caps"></td>
+<td class="ctrl" onclick="toggleaccent();"><img src="/static/img/accent.png" alt="acc"></td>
+<td class="key" onclick="hl(this); addLetter('\'');"><img src="/static/img/apostrophe.png" alt="apostr"></td>
+<td class="key" onclick="hl(this); backspace();"><img src="/static/img/bs.png" alt="bs"></td>
+</tr>
+
+<tr>
+<td class="key" colspan="5" onclick="hl(this); addLetter(' ');">espaço</td>
+<td class="del" onclick="clr();"><img src="/static/img/x.png" alt="x"></td>
+</tr>
+</table>
+
+
+
+<table id="capstblaccent" class="kb" style="display: none;">
+<tr>
+<td class="key" onclick="hl(this); addLetter('Ά');">Ά</td>
+<td class="key disabled">&nbsp;</td>
+<td class="key disabled">&nbsp;</td>
+<td class="key disabled">&nbsp;</td>
+<td class="key" onclick="hl(this); addLetter('Έ');">Έ</td>
+<td class="key disabled">&nbsp;</td>
+</tr>
+
+<tr>
+<td class="key" onclick="hl(this); addLetter('Ή');">Ή</td>
+<td class="key disabled">&nbsp;</td>
+<td class="key" onclick="hl(this); addLetter('Ί');">Ί</td>
+<td class="key disabled">&nbsp;</td>
+<td class="key disabled">&nbsp;</td>
+<td class="key disabled">&nbsp;</td>
+</tr>
+
+<tr>
+<td class="key disabled">&nbsp;</td>
+<td class="key disabled">&nbsp;</td>
+<td class="key" onclick="hl(this); addLetter('Ό');">Ό</td>
+<td class="key disabled">&nbsp;</td>
+<td class="key disabled">&nbsp;</td>
+<td class="key disabled">&nbsp;</td>
+</tr>
+
+<tr>
+<td class="key disabled">&nbsp;</td>
+<td class="key disabled">&nbsp;</td>
+<td class="key" onclick="hl(this); addLetter('Ύ');">Ύ</td>
+<td class="key disabled">&nbsp;</td>
+<td class="key disabled">&nbsp;</td>
+<td class="key disabled">&nbsp;</td>
+</tr>
+
+<tr>
+<td class="key" onclick="hl(this); addLetter('Ώ');">Ώ</td>
+<td class="ctrl" onclick="togglecaps();"><img src="/static/img/caps.png" alt="caps"></td>
+<td class="ctrl" onclick="toggleaccent();"><img src="/static/img/accent.png" alt="acc"></td>
+<td class="key" onclick="hl(this); addLetter('\'');"><img src="/static/img/apostrophe.png" alt="apostr"></td>
+<td class="key" onclick="hl(this); backspace();"><img src="/static/img/bs.png" alt="bs"></td>
+</tr>
+
+<tr>
+<td class="key" colspan="5" onclick="hl(this); addLetter(' ');">espaço</td>
+<td class="del" onclick="clr();"><img src="/static/img/x.png" alt="x"></td>
+</tr>
+</table>
+
+<br>
+<div id="entries" style="width: 300px; display: inline-block; text-align: left;">
+Dicionário
+</div>
+</div>
+{% endblock %}
+
+{% block script %}
+<script>
+var questions = [
+    {{ words_display|safe }}
+];
+</script>
+<script>
+{{ data|safe }}
+
+{{ shaved|safe }}
+
+var input_textbox = document.getElementById("textbox");
+
+document.getElementById("entries").innerHTML = data.join("<br>");
+
+function checkAns(s) {
+  var tmp = "";
+  for (var i = 0; i < data.length; i++) {
+    if (shaved[i].indexOf(s) >= 0) {
+      tmp += data[i] + "<br>";
+    }
+  }
+  document.getElementById("entries").innerHTML = tmp;
+}
+
+
+document.getElementById("textbox").onkeyup = function (e) {
+  checkAns(input_textbox.value);
+}
+
+// see if mobile input method changed (added accent/converted a character)
+$("#textbox").bind("propertychange change input paste", function () {
+  input_textbox.value = input_textbox.value.trim();
+  checkAns(input_textbox.value);
+});
+
+</script>
+<script src="{% static "kb/kb.js" %}"></script>
+{% endblock %}

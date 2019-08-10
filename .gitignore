@@ -12,7 +12,7 @@ migrate
 createsuperuser
 runserver
 
-template*
+template.txt
 
 projects/users/
 users/
