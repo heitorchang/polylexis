@@ -17,11 +17,13 @@ from django.contrib import admin
 from django.urls import path, include
 from ui.views import index as uiIndex
 from quizzes import views as quizviews
+from dicionario import views as dicionarioviews
 
 urlpatterns = [
     # path('admin/', admin.site.urls),
     # path('accounts/', include('django.contrib.auth.urls')),
     # path('fileeditor/', include('fileeditor.urls')),
+    path('dicionario/', dicionarioviews.gregoport, name='dicionario_gregoport'),
     path('<path:dirname>/<str:filename>.txt', quizviews.fileread, name="fileread"),
     path('<path:dirname>/<str:filename>.txt/answers/', quizviews.answers, name="answers"),
     path('<path:dirname>/', quizviews.dirlist, name="dirlist"),

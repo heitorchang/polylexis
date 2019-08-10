@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'fileeditor',
     'accounts',
     'quizzes',
+    'dicionario',
 ]
 
 MIDDLEWARE = [
