@@ -60,7 +60,7 @@ def gregoport(request):
     def shave_marks(txt):
         norm_txt = unicodedata.normalize('NFD', txt)
         shaved = ''.join(c for c in norm_txt if not unicodedata.combining(c))
-        return unicodedata.normalize('NFC', shaved)
+        return unicodedata.normalize('NFC', shaved).lower()
     
     data = "var data = ["
     for line in raw_data.splitlines():

@@ -246,7 +246,7 @@ document.getElementById("entries").innerHTML = data.join("<br>");
 function checkAns(s) {
   var tmp = "";
   for (var i = 0; i < data.length; i++) {
-    if (shaved[i].indexOf(s) >= 0) {
+    if (shaved[i].indexOf(s.toLowerCase()) >= 0) {
       tmp += data[i] + "<br>";
     }
   }
