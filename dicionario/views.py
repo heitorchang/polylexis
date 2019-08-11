@@ -75,7 +75,7 @@ def gregoport(request):
     for line in raw_data.splitlines():
         line = line.strip()
         if len(line) > 0:
-            shaved += '"{}",\n'.format(shave_marks(line))
+            shaved += '"{} {}",\n'.format(shave_marks(line), line)
 
     shaved += "];"
     
