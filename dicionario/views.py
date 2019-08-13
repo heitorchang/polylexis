@@ -917,7 +917,7 @@ def gregoport(request):
     το μπρόκολο = brócolis
     μπροστά = na frente
     το μυαλό = mente
-    Μύκονος = Miconos
+    Μύκονος = Míconos
     μυρίζω = cheirar
     η μύτη = nariz
     το μωρό = bebê
