@@ -17,8 +17,12 @@
 <div class="ctr">
 
 Digite grego ou português<br>(acentos opcionais)<br>
-    <input id="textbox" size="30">
+    <input id="textbox" size="22"> <img src="/static/img/cancel.png" alt="x" id="xicon">
     <br>
+
+<img src="/static/img/kb.png" alt="keyboard" id="kbicon"><br>
+
+<div id="grkb" style="display: none;">
 
 <table id="lowertbl" class="kb" style="display: inline-block;">
 <tr>
@@ -227,8 +231,8 @@ Digite grego ou português<br>(acentos opcionais)<br>
 <td class="del" onclick="clr();"><img src="/static/img/x.png" alt="x"></td>
 </tr>
 </table>
-
-<br>
+</div>  <!-- grkb -->
+<div id="clearkb" style="display: none; height: 1px;">&nbsp;</div>
 <div id="entries" style="width: 300px; display: inline-block; text-align: left;">
 Dicionário
 </div>
@@ -238,16 +242,36 @@ Dicionário
 
 {% block script %}
 <script>
+var input_textbox = document.getElementById("textbox");
+
+var kbvisible = false;
+var grkb = document.getElementById("grkb");
+var clearkb = document.getElementById("clearkb");
+
+document.getElementById("xicon").onclick = function () {
+  input_textbox.value = "";
+  checkAns(input_textbox.value);
+}
+
+document.getElementById("kbicon").onclick = function () {
+  if (!kbvisible) {
+    grkb.style.display = "inline-block";
+    clearkb.style.display = "block";
+    kbvisible = true;
+  } else {  
+    grkb.style.display = "none";
+    clearkb.style.display = "none";
+    kbvisible = false;
+  }
+}
+
 var questions = [
     {{ words_display|safe }}
 ];
-</script>
-<script>
+
 {{ data|safe }}
 
 {{ shaved|safe }}
-
-var input_textbox = document.getElementById("textbox");
 
 document.getElementById("entries").innerHTML = "<div class='ind'>" + data.join("</div><br><div class='ind'>") + "</div>";
 
