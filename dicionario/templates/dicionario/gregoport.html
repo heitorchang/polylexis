@@ -4,6 +4,13 @@
 {% block stylesheet %}
 <link rel="stylesheet" href="{% static "css/jquery.modal.min.css" %}">
 <link rel="stylesheet" href="{% static "kb/kb.css" %}">
+<style>
+.ind {
+    display: inline-block;
+    padding-left: 1.2em;
+    text-indent: -1.2em;
+}
+</style>
 {% endblock %}
 
 {% block content %}
@@ -241,7 +248,7 @@ var questions = [
 
 var input_textbox = document.getElementById("textbox");
 
-document.getElementById("entries").innerHTML = data.join("<br>");
+document.getElementById("entries").innerHTML = "<div class='ind'>" + data.join("</div><div class='ind'>") + "</div>";
 
 function checkAns(s) {
   var tmp = "";
