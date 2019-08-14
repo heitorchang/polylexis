@@ -252,12 +252,13 @@ var input_textbox = document.getElementById("textbox");
 document.getElementById("entries").innerHTML = "<div class='ind'>" + data.join("</div><br><div class='ind'>") + "</div>";
 
 function checkAns(s) {
-  var tmp = "";
+  var tmp = "<div class='ind'>";
   for (var i = 0; i < data.length; i++) {
     if (shaved[i].indexOf(s.trim().toLowerCase()) >= 0) {
-      tmp += data[i] + "<br>";
+      tmp += data[i] + "</div><br><div class='ind'>";
     }
   }
+  tmp += "</div>";
   document.getElementById("entries").innerHTML = tmp;
 }
 
