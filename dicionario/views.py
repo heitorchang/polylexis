@@ -65,7 +65,7 @@ def gregoport(request):
     ακολουθώ = seguir
     ακόμη (quantitativo) = ainda, mais
     ακόμη (temporal) = ainda
-    το ακορντεόν = acordião
+    το ακορντεόν = acordeão
     ακούω = escutar, ouvir
     ακριβός, -ή, -ό = caro
     ακριβώς = exatamente
