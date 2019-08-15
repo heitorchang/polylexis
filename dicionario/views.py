@@ -73,7 +73,7 @@ def gregoport(request):
     η ακρόαση = audição
     η ακτή = praia
     το αλάτι = sal
-    η Αλβανία = Albania
+    η Αλβανία = Albânia
     αλβανική γλώσσα = albanês (idioma)
     αλβανικά = albanês (idioma)
     αλβανικός, -ή, -ό = albanês
