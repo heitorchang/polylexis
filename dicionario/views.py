@@ -52,8 +52,8 @@ def gregoport(request):
     η Αίγυπτος = Egito
     Αιγύπτιος, -ια = egípcio (pessoa)
     αιγυπτιακός, -ή, -ό = egípcio
-    αιγυπτιακή γλώσσα = egípcia (idioma)
-    αιγυπτιακά = egípcia (idioma)
+    αιγυπτιακή γλώσσα = egípcio (idioma)
+    αιγυπτιακά = egípcio (idioma)
     η Αιθιοπία = Etiópia
     το αίμα = sangue
     η Αιμιλία = Emilia
@@ -65,7 +65,7 @@ def gregoport(request):
     ακολουθώ = seguir
     ακόμη (quantitativo) = ainda, mais
     ακόμη (temporal) = ainda
-    το ακορτεόν = acordião
+    το ακορντεόν = acordião
     ακούω = escutar, ouvir
     ακριβός, -ή, -ό = caro
     ακριβώς = exatamente
