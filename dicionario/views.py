@@ -73,7 +73,7 @@ def gregoport(request):
     η ακρόαση = audição
     η ακτή = praia
     το αλάτι = sal
-    η Αλβανία = Albania
+    η Αλβανία = Albânia
     αλβανική γλώσσα = albanês (idioma)
     αλβανικά = albanês (idioma)
     αλβανικός, -ή, -ό = albanês
@@ -827,8 +827,8 @@ def gregoport(request):
     μακρύς, -ιά, -ύ = longo
     τα μαλλιά = cabelos
     μάλλον = talvez
-    ο μανάβης = merceeiro
-    το μανάβικο = mercearia
+    ο μανάβης = vendedor de frutas e legumes
+    το μανάβικο = loja/banca de frutas e legumes
     το μαρούλι = alface
     ο Μάρτιος = março
     το μάτι = olho

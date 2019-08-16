@@ -25,13 +25,20 @@ def dirlist(dirname):
 
     for filename in sorted(os.listdir(curdir)):
         if os.path.isdir(os.path.join(curdir, filename)):
-            dirs_links[dirname + "/" + filename] = filename
+            # use description in description.txt if it exists
+            if os.path.isfile(dirname + "/" + filename + "/description.txt"):
+                with open(dirname + "/" + filename + "/description.txt", encoding="utf-8") as desc:
+                    dir_desc = desc.readline()
+            else:
+                dir_desc = filename
+            dirs_links[dirname + "/" + filename] = dir_desc
         else:
-            # read display line (first line of text file)
-            fullname = curdir + "/" + filename
-            with open(fullname, encoding="utf-8") as inf:
-                filename_no_txt = filename.replace(".txt", "")
-                files_links[filename_no_txt] = inf.readline()
+            if filename != 'description.txt' and filename != 'template.txt':
+                # read display line (first line of text file)
+                fullname = curdir + "/" + filename
+                with open(fullname, encoding="utf-8") as inf:
+                    filename_no_txt = filename.replace(".txt", "")
+                    files_links[filename_no_txt] = inf.readline()
 
     return {'dirs_links': dirs_links,
             'files_links': files_links,
