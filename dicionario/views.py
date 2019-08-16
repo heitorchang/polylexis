@@ -1068,6 +1068,7 @@ def gregoport(request):
     τα πατατάκια = chips de batata
     ο πατέρας = pai
     ο Παύλος = Paulo
+    πάω = ir
     το πεζοδρόμιο = calçada
     πεινάω = estar com fome
     ο/η πελάτης/-ισσα = cliente
@@ -1202,7 +1203,7 @@ def gregoport(request):
     το ραδιόφωνο = rádio
     το ρεπό = dia de folga
     το ρεύμα (ηλεκτρικό) = eletricidade
-    ρίχνω = jogar
+    ρίχνω = arremessar
     ροζ = rosa
     το ρολόι (de parede) = relógio
     το ρολόι (de pulso) = relógio
