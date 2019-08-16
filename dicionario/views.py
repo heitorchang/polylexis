@@ -780,7 +780,7 @@ def gregoport(request):
     το λάδι = óleo
     το λάθος = erro
     η λαϊκή (αγορά) = feira de rua
-    τα λαχανικά = legumes
+    τα λαχανικά = verduras e legumes
     το λάχανο = repolho
     λείπω = estar ausente
     η λεμονάδα = limonada
@@ -829,8 +829,8 @@ def gregoport(request):
     μακρύς, -ιά, -ύ = longo
     τα μαλλιά = cabelos
     μάλλον = talvez
-    ο μανάβης = vendedor de frutas e legumes
-    το μανάβικο = loja/banca de frutas e legumes
+    ο μανάβης = vendedor de frutas e verduras
+    το μανάβικο = loja/banca de frutas e verduras
     το μαρούλι = alface
     ο Μάρτιος = março
     το μάτι = olho
