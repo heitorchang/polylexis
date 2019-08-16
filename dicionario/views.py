@@ -52,8 +52,8 @@ def gregoport(request):
     η Αίγυπτος = Egito
     Αιγύπτιος, -ια = egípcio (pessoa)
     αιγυπτιακός, -ή, -ό = egípcio
-    αιγυπτιακή γλώσσα = egípcia (idioma)
-    αιγυπτιακά = egípcia (idioma)
+    αιγυπτιακή γλώσσα = egípcio (idioma)
+    αιγυπτιακά = egípcio (idioma)
     η Αιθιοπία = Etiópia
     το αίμα = sangue
     η Αιμιλία = Emilia
@@ -65,11 +65,11 @@ def gregoport(request):
     ακολουθώ = seguir
     ακόμη (quantitativo) = ainda, mais
     ακόμη (temporal) = ainda
-    το ακορτεόν = acordião
+    το ακορντεόν = acordeão
     ακούω = escutar, ouvir
     ακριβός, -ή, -ό = caro
     ακριβώς = exatamente
-    (στισ 10) ακριβώς = às dez em ponto
+    (Στισ 10) ακριβώς! = Às dez em ponto!
     η ακρόαση = audição
     η ακτή = praia
     το αλάτι = sal
@@ -190,7 +190,7 @@ def gregoport(request):
     η αστυνομία = polícia
     ο/η αστυνομικός = policial
     άσχημα = mal
-    άσχημος = feio
+    άσχημος, -η, -ο = feio
     η ασχολία = profissão
     η ατζέντα = agenda
     το άτομο = pessoa
@@ -295,13 +295,14 @@ def gregoport(request):
     γαλλικός, -ή, -ό = francês
     γαλλική γλώσσα = francês (idioma)
     γαλλικά = francês (idioma)
+    Γάλλος, -ίδα = francês (pessoa)
     ο γάμος (cerimônia) = casamento
     ο γάμος (instituição) = matrimônio
     το γάντι = luva
     το γαριδάκι = salgadinho
     το γαρίφαλο = cravo (flor)
     η γάτα = gato
-    Γεια = Oi, οlá
+    Γεια! = Oi, οlá!
     ο γείτονας = vizinho
     η γειτονιά = vizinhança
     γελάω, -ώ = rir
@@ -349,7 +350,7 @@ def gregoport(request):
     οι γονείς = pais
     το γουρούνι = porco
     η γραβάτα = gravata
-    το γράμμα = letra
+    το γράμμα = letra, carta
     ο/η γραμματέας = secretário
     η γραμματική = gramática
     το γραμματοκιβώτιο = caixa de correio
@@ -540,7 +541,7 @@ def gregoport(request):
     ευτυχισμένος, -η, -ο = feliz
     ευχάριστος, -η, -ο = agradável
     ευχαριστώ = agradecer
-    Ευχαριστώ = Obrigado
+    Ευχαριστώ! = Obrigado!
     η ευχή = desejo
     ο/η έφηβος/-η = adolescente
     η εφημερίδα = jornal
@@ -710,7 +711,7 @@ def gregoport(request):
     η Κίνα = China
     Κινέζος, -α = chinês (pessoa)
     κινεζική γλώσσα = chinês (idioma)
-    κινεζικά = chinês (idioma)
+    κινέζικα = chinês (idioma)
     κινεζικός, -ή, -ό = chinês
     ο κινηματογράφος = cinema
     το κινητό τηλέφωνο = celular
@@ -761,7 +762,7 @@ def gregoport(request):
     το κρεοπωλείο = açougue
     ο κρεοπώλης = açougueiro
     Κρήτη = Creta
-    (Τι) κρίμα = Que pena
+    (Τι) κρίμα! = Que pena!
     κρίνω = julgar
     Κροατία = Croácia
     κρύβω = esconder
@@ -912,7 +913,7 @@ def gregoport(request):
     μπορώ = poder, ser capaz
     το μπουκάλι = garrafa
     το μπουφάν = jaqueta
-    Μπράβο = Muito bem
+    Μπράβο! = Muito bem!
     η μπριζόλα = bife
     το μπρόκολο = brócolis
     μπροστά = na frente
@@ -970,7 +971,7 @@ def gregoport(request):
     ξυπνάω, -ώ = acordar
     η ξύστρα = apontador
     ογδόντα = oitenta
-    όγδοος, -η, -ο = oito
+    όγδοος, -η, -ο = oitavo
     ο/η οδηγός = guia
     οδηγώ = dirigir (um veículo), guiar
     η οδοντογλυφίδα = palito de dente
@@ -1003,7 +1004,7 @@ def gregoport(request):
     όπου = em qualquer lugar
     όπως = como
     ορθογώνιο = retângulo
-    Ορίστε = Aqui está
+    Ορίστε! = Aqui está!
     ο όροφος = chão
     όταν = quando
     η Ουγγαρία = Hungria
@@ -1046,8 +1047,8 @@ def gregoport(request):
     παραδοσιακός, -ή, -ό = tradicional
     το παράθυρο = janela
     παρακαλώ = agradar
-    (Σε/Σας) παρακαλώ = Por favor
-    Παρακαλώ (respondendo a 'obrigado') = De nada
+    (Σε/Σας) παρακαλώ! = Por favor!
+    Παρακαλώ! (respondendo a 'obrigado') = De nada!
     παρακάτω = debaixo
     παρακολουθώ = vigiar
     η παραλία = praia
@@ -1191,7 +1192,7 @@ def gregoport(request):
     πρώτα = primeiramente
     η Πρωτομαγιά = primeiro de maio
     πρώτος, -η, -ο = primeiro
-    η Πρωροχρονιά = Véspera de Ano-Novo
+    η Πρωτοχρονιά = Véspera de Ano-Novo
     ο πύργος = torre
     ο πυρετός = febre
     ο/η πωλητής/-τρια = vendedor, assistente de loja
@@ -1205,7 +1206,7 @@ def gregoport(request):
     το ρολόι (de parede) = relógio
     το ρολόι (de pulso) = relógio
     ο ρόλος = parte, papel (de um ator)
-    το ρούχο = tecido
+    το ρούχο = tecido, roupa
     το ρύζι = arroz
     η Ρώμη = Roma
     η Ρωσία = Rússia
@@ -1283,7 +1284,7 @@ def gregoport(request):
     το στολίδι = decoração
     στολίζω = decorar
     στολισμένος, -η, -ο = decorado
-    Συγνώμη/Συγγνώμη = Desculpe
+    Συγνώμη/Συγγνώμη! = Desculpe!
     η συγνώμη/συγγνώμη = desculpa
     ο συγγραφέας = autor, escritor
     συγκρίνω = comparar
@@ -1393,7 +1394,7 @@ def gregoport(request):
     τραγουδάω, -ώ = cantar
     το τραγούδι = canção
     τρακάρω = colidir
-    η τράπεζα = banco
+    η τράπεζα = banco (instituição financeira)
     το τραπέζι = mesa
     τρεις, τρία = três
     τρεισήμισι = três e meio
@@ -1493,7 +1494,7 @@ def gregoport(request):
     το φύλο = sexo (masc./fem.)
     Φυσάει = Está ventando
     η φύση = natureza
-    Φυσικά = Naturalmente
+    Φυσικά! = Naturalmente!
     φυσικός, -ή, -ό = natural
     φωνάζω = gritar, falar em voz alta
     η φωνή = voz
