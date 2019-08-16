@@ -752,6 +752,7 @@ def gregoport(request):
     η κουζίνα = cozinha
     η κούκλα = boneca
     το κουνέλι = coelho
+    το κουτάλι = colher
     το κουτί = caixa
     το κρανίο = crânio
     το κρασί = vinho
