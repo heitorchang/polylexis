@@ -640,7 +640,7 @@ def gregoport(request):
     καθένας, καθεμία/καθεμιά, καθένα = todo, todo mundo
     κάθετα = verticalmente, do outro lado
     ο/η καθηγητής/-τρια = professor
-    καθόλου = nenhum, de jeito nenhum 
+    καθόλου = de modo nenhum 
     κάθομαι = sentar
     ο καθρέφτης = espelho
     η καθυστέρηση = atraso
