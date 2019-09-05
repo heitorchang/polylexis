@@ -17,3 +17,11 @@ yet more prompts*more answers
 ```
 
 Prompts and answers may be swapped inside a quiz.
+
+## Resources
+
+http://speakgreek.web.auth.gr/dp/el/library/choose
+
+https://www.foundalis.com/lan/hw/grkhandw.htm
+
+http://www.xanthi.ilsp.gr/filog/ch1/alphabet/alphabet.asp
