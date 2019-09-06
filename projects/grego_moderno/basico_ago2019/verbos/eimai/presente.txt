@@ -1,6 +1,6 @@
 Presente
 ===
-Digite em grego (letras minúsculas). Não esqueça de pôr o acento.
+Conjugue είμαι no presente (use letras minúsculas). Não esqueça de pôr o acento.
 ===
 εγώ*είμαι
 εσύ*είσαι
