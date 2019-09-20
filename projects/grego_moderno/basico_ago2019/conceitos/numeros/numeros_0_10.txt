@@ -1,0 +1,16 @@
+Números de 0 a 10 (p. 59)
+===
+Escreva em grego (com letras minúsculas).<br><br>
+Algumas palavras podem ter mais de uma resposta.
+===
+0/zero*μηδέν
+1/um*ένας/μία/ένα
+2/dois*δύο
+3/três*τρεις/τρία
+4/quatro*τέσσερις/τέσσερα
+5/cinco*πέντε
+6/seis*έξι
+7/sete*εφτά/επτά
+8/oito*οχτώ/οκτώ
+9/nove*εννιά/εννέα
+10/dez*δέκα
