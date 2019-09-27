@@ -4,10 +4,14 @@ Escreva em grego (com letras minúsculas).<br><br>
 Algumas palavras podem ter mais de uma resposta.
 ===
 0/zero*μηδέν
-1/um*ένας/μία/ένα
+1/um (masc.)*ένας
+1/um (fem.)*μία
+1/um (neut.)*ένα
 2/dois*δύο
-3/três*τρεις/τρία
-4/quatro*τέσσερις/τέσσερα
+3/três (masc. ou fem.)*τρεις
+3/três (neut.)*τρία
+4/quatro (masc. ou fem.)*τέσσερις
+4/quatro (neut.)*τέσσερα
 5/cinco*πέντε
 6/seis*έξι
 7/sete*εφτά/επτά
