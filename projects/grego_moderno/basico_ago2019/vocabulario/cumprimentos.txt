@@ -9,7 +9,9 @@ como se chama?*πώς σε λένε/πώς σας λένε
 como está?*τι κάνεις/τι κάνετε
 bom dia*καλημέρα
 boa tarde/boa noite (entrada)*καλησπέρα
-boa noite (despedida)*καληνύχτα
+boa tarde (12:00 - 15:00, saída)*καλό μεσημέρι
+boa tarde (15:00 - 20:00, saída)*καλό απόγευμα
+boa noite (despedida)*καληνύχτα/καλό βράδυ
 bem*καλά/όλα καλά/μια χαρά
 muito bem*πολύ καλά
 tchau*αντίο
