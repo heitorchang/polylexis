@@ -1,0 +1,15 @@
+Endereço (p. 56)
+===
+Escreva em grego. Inclua o artigo correto (ο, η, το).<br>
+Exemplo: endereço -- η διεύθυνση
+===
+endereço*η διεύθυνση
+rua/avenida*η οδός
+número*ο αριθμός
+cidade*η πόλη
+país*η χώρα
+telefone*το τηλέφωνο
+celular*το κινητό
+morar*μένω
+sobrenome*το επώνυμο
+nome*το όνομα
