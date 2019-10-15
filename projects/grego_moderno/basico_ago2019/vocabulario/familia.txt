@@ -5,12 +5,12 @@ Exemplo: papai -- μπαμπάς
 ===
 papai*μπαμπάς
 mamãe*μαμά
-homem/marido*άντρας
+homem/marido*άντρας/άνδρας
 mulher/esposa*γυναίκα
 filho*γιος
 filha*κόρη
-vovô*γιαγιά
-vovó*παππούς
+vovô*παππούς
+vovó*γιαγιά
 neto*εγγονός
 neta*εγγονή
 irmão*αδελφός/αδερφός
