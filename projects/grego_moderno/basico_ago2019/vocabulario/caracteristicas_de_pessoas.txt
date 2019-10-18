@@ -4,15 +4,17 @@ Escreva o adjetivo (na forma masculina) em grego.<br>
 Exemplo: belo -- ωραίος ou όμορφος
 ===
 belo*ωραίος/όμορφος
-grande*μεγάλος
+feio*άσχημος
+grande/velho (idade)*μεγάλος
 pequeno*μικρός
 alto*ψηλός
 baixo*κοντός
-novo (objeto)*καινούριος/νέος
-velho (objeto)*παλιός
-novo (objeto ou homem)*νέος
+novo*νέος
+novo (menos para idade)*καινούριος
+velho (menos para idade)*παλιός
 loiro*ξανθός
 moreno*μελαχρινός
 gordo*χοντρός
 magro*αδύνατος
 moderno*μοντέρνος
+doce*γλυκός
