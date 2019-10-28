@@ -1,0 +1,61 @@
+Nacionalidades (exercício da p. 77)
+===
+Escreva em grego. Inclua o artigo somente com o nome do país.<br>Lembre-se que os nomes dos países e substantivos de pessoas começam com letras maiúsculas. Exemplo: η Αμερική, Αμερικανός
+===
+América (EUA)*η Αμερική
+americano (pessoa)*Αμερικανός
+americana (pessoa)*Αμερικανίδα
+inglês (idioma)*αγγλικά
+Noruega*η Νορβηγία
+norueguês (pessoa)*Νορβηγός
+norueguesa (pessoa)*Νορβηγίδα
+norueguês (idioma)*νορβηγικά
+Alemanha*η Γερμανία
+alemão (pessoa)*Γερμανός
+alemã (pessoa)*Γερμανίδα
+alemão (idioma)*γερμανικά
+França*η Γαλλία
+francês (pessoa)*Γάλλος
+francesa (pessoa)*Γαλλίδα
+francês (idioma)*γαλλικά
+Rússia*η Ρωσία
+russo (pessoa)*Ρώσος
+russa (pessoa)*Ρωσίδα
+russo (idioma)*ρωσικά
+Espanha*η Ισπανία
+espanhol (pessoa)*Ισπανός
+espanhola (pessoa)*Ισπανίδα
+espanhol (idioma)*ισπανικά
+Inglaterra*η Αγγλία
+inglês (pessoa)*Άγγλος
+inglesa (pessoa)*Αγγλίδα
+Itália*η Ιταλία
+italiano (pessoa)*Ιταλός
+italiana (pessoa)*Ιταλίδα
+italiano (idioma)*ιταλικά
+Grécia*η Ελλάδα
+grego (pessoa)*Έλληνας
+grega (pessoa)*Ελληνίδα
+grego (idioma)*ελληνικά
+Japão*η Ιαπωνία
+japonês (pessoa)*Γιαπωνέζος
+japonesa (pessoa)*Γιαπωνέζα
+japonês (idioma)*γιαπωνέζικα
+China*η Κίνα
+chinês (pessoa)*Κινέζος
+chinesa (pessoa)*Κινέζα
+chinês (idioma)*κινεζικά/κινέζικα
+Canadá*ο Καναδάς
+canadense (pessoa)*Καναδός
+canadensa (pessoa)*Καναδέζα
+Austrália*η Αυστραλία
+australiano (pessoa)*Αυστραλέζος/Αυστραλός
+australiana (pessoa)*Αυστραλέζα/Αυστραλή
+Coreia*η Κορέα
+coreano (pessoa)*Κορεάτης
+coreana (pessoa)*Κορεάτισσα
+coreano (idioma)*κορεάτικα
+Brasil*η Βραζιλία
+brasileiro (pessoa)*Βραζιλιάνος
+brasileira (pessoa)*Βραζιλιάνα
+português (idioma)*πορτογαλικά
