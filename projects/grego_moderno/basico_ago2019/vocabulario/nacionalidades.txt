@@ -6,6 +6,10 @@ América (EUA)*η Αμερική
 americano (pessoa)*Αμερικανός
 americana (pessoa)*Αμερικανίδα
 inglês (idioma)*αγγλικά
+Brasil*η Βραζιλία
+brasileiro (pessoa)*Βραζιλιάνος
+brasileira (pessoa)*Βραζιλιάνα
+português (idioma)*πορτογαλικά
 Noruega*η Νορβηγία
 norueguês (pessoa)*Νορβηγός
 norueguesa (pessoa)*Νορβηγίδα
@@ -55,7 +59,3 @@ Coreia*η Κορέα
 coreano (pessoa)*Κορεάτης
 coreana (pessoa)*Κορεάτισσα
 coreano (idioma)*κορεάτικα
-Brasil*η Βραζιλία
-brasileiro (pessoa)*Βραζιλιάνος
-brasileira (pessoa)*Βραζιλιάνα
-português (idioma)*πορτογαλικά
