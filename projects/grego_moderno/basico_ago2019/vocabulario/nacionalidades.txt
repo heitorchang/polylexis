@@ -1,6 +1,6 @@
 Nacionalidades (exercício da p. 77)
 ===
-Escreva em grego. Inclua o artigo somente com o nome do país.<br>Lembre-se que os nomes dos países e substantivos de pessoas começam com letras maiúsculas.<br>Exemplo: η Αμερική, Αμερικανός, Αμερικανίδα, αγγλικά
+Escreva em grego. Inclua o artigo somente com o nome do país.<br>Lembre-se de que os nomes dos países e substantivos de pessoas começam com letras maiúsculas.<br>Exemplo: η Αμερική, Αμερικανός, Αμερικανίδα, αγγλικά
 ===
 América (EUA)*η Αμερική
 americano (pessoa)*Αμερικανός
