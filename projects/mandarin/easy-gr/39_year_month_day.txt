@@ -1,3 +1,7 @@
+Year, month, day
+===
+Write the GR.
+===
 Year, month, day*nian yueh ryh
 morning*tzao shanq
 daytime*bair tian
