@@ -52,7 +52,7 @@ PN: we, us [PAVC-102]*woo .men
 N: Ms [PAVC-102]*sheau jiee
 V: to thank, thank you [PAVC-102]*shieh .shie
 A: also [PAVC-102]; P: used in classical Chinese at the end of sentence or a phrase [PAVC-518]*yee
-IE: goodbye (literally: "see you again") [PAVC-102]; N: ～全壘打 a game-ending home run (in baseball) [PAVC-312]*tzay jiann
+IE: goodbye (literally: 'see you again') [PAVC-102]; N: ～全壘打 a game-ending home run (in baseball) [PAVC-312]*tzay jiann
 IE, SV: good morning, to be early [PAVC-102]*tzao
 N, M, V: a common Chinese surname [PAVC-102]; a measure word for photograph, paper, table, etc. [PAVC-105]; to open, to stretch [PAVC-401]*jang
 N: Chinese surname (Zhao) [PAVC-102]*jaw
