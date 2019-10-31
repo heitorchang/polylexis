@@ -98,7 +98,7 @@ N: Sunday (l…t…)*lii bay tian
 IE: never mind, it doesn't matter, it's nothing, that's all right*mei shyh .el
 N: mountain*shan
 VO: to become ill, to be sick*sheng binq
-SV: to be comfortable*shu fwu
+SV: to be comfortable*shu .fu
 V: to calculate*suann
 A, SV: especially, to be special*teh bye
 V: to forget*wanq
