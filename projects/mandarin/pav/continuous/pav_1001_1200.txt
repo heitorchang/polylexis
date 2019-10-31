@@ -1,4 +1,4 @@
-c:/Users/Heitor/Desktop/code/natural-languages/mandarin/gwoyeu-romatzyh-studies/polylexis/pav/continuous/pav_1001_1200
+Words 1001 to 1200
 ===
 Write in GR.
 ===
@@ -10,7 +10,7 @@ N: Confucius*koong tzyy
 N: accent (of a spoken language)*koou in
 P: combined sounds of 了 and 啊, denoting exclamation or interrogation*.la
 V: to come ; to do (something implied in the context)*lai
-P: mmm! (contentment)*.m2
+P: mmm! (contentment)*.m
 I: oh!*ow
 M: measure word for papers, literary articles, essays, etc.*pian
 SV, A: entire, whole*chyuan
@@ -183,7 +183,7 @@ N: academic credits*shyue fen
 V: to study, to learn*shyue shyi
 V, N: to make an appointment; appointment, engagement*iue
 V, N: to have a date; date*iue huey
-N: Mainland China*jong gwo  da4 luh
+N: Mainland China*jong gwo dah luh
 N: materials, data, information*tzy liaw
 V: to rent*tzu
 RC: to rent out*tzu chu chiuh

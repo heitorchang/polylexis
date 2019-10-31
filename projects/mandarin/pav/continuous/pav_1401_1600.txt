@@ -1,4 +1,4 @@
-c:/Users/Heitor/Desktop/code/natural-languages/mandarin/gwoyeu-romatzyh-studies/polylexis/pav/continuous/pav_1401_1600
+Words 1401 to 1600
 ===
 Write in GR.
 ===
@@ -59,7 +59,7 @@ N: thesis, dissertation, treatise (M: 篇)*luenn wen
 V, N: to interview; personal interview (…s…)*miann shyh
 V, N: to interview; personal interview (…t…)*miann tarn
 P: particle serving the same function as 啊, following the words that end in an 'an' or 'en'*.na
-N: grandma, grandmother (father's mother)*nae .nai2
+N: grandma, grandmother (father's mother)*nae .nai
 N: ability, capability, aptitude*neng lih
 N: era, generation, a decade of a century*nian day
 N: situation, condition, circumstances, state of affairs (…x…)*chyng shyng

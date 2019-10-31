@@ -1,4 +1,4 @@
-c:/Users/Heitor/Desktop/code/natural-languages/mandarin/gwoyeu-romatzyh-studies/polylexis/pav/continuous/pav_5401_5600
+Words 5401 to 5600
 ===
 Write in GR.
 ===
@@ -158,7 +158,7 @@ N, V: ridicule; to ridicule, to jeer*ji shiaw
 V: to guarantee*dan bao
 N: mantis*tarng lang
 N: siskin, titmouse*hwang chiueh
-N: Spring and Autumn Period (777-476 BCE)*chuen -qiu1  shi2 day
+N: Spring and Autumn Period (777-476 BCE)*chuen chiou shyr day
 N: state in different periods of Chinese history, surname (Wu)*wu
 V: to attack, to assault*gong daa
 N: powerful state (740-223 BCE)*chuu gwo

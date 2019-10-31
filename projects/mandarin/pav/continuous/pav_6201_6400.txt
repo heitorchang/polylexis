@@ -1,4 +1,4 @@
-c:/Users/Heitor/Desktop/code/natural-languages/mandarin/gwoyeu-romatzyh-studies/polylexis/pav/continuous/pav_6201_6400
+Words 6201 to 6400
 ===
 Write in GR.
 ===
@@ -186,7 +186,7 @@ N: pioneer, forerunner, harbinger, predecessor [TOP-M]*shian chiu
 N, SV: radiance, brilliance, glory; to be brilliant, to be magnificent [TOP-M]*guang huei
 V: to cash a check, to honor a commitment, to fulfill, to make good [TOP-M]*duey shiann
 N, SV: immunity; to be immune [TOP-M]*mean yih
-N: Eight Trigrams (of 易經, the Book of Changes) [TOP-M]*ba  gua4
+N: Eight Trigrams (of 易經, the Book of Changes) [TOP-M]*ba guah
 N: resonance, sympathetic response [TOP-M]*gonq ming
 N, V: deep thought, meditation; to contemplate, to meditate, to muse [TOP-M]*ming sheang
 SV: to wither, fall, and scatter about; to decline, to be on the wane [TOP-M]*diau ling

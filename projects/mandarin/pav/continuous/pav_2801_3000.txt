@@ -1,4 +1,4 @@
-c:/Users/Heitor/Desktop/code/natural-languages/mandarin/gwoyeu-romatzyh-studies/polylexis/pav/continuous/pav_2801_3000
+Words 2801 to 3000
 ===
 Write in GR.
 ===
@@ -52,7 +52,7 @@ N: example, case, instance*lih .tzy
 N: news media, broadcast media*chwan boh mei tii
 V: to spread, to disseminate news or information*chwan boh
 N: evaluation, appraisal*pyng jiah
-N: National Theatre*gwo jia  ju4 yuann
+N: National Theatre*gwo jia jiuh yuann
 N: abstract painting*chou shianq huah
 SV: to be abstract*chou shianq
 N: popular song*liou shyng ge cheu
@@ -63,12 +63,12 @@ N: transliteration of Joseph Haydn's surname*hae duenn
 N: transliteration of Oscar*aw sy kaa
 VO: to pay a New Year call, to wish a Happy New Year*bay nian
 N: transliteration of Pablo Picasso's surname*bih kaa suoo
-N: Cloud Gate Theater, a modern dance group from Taipei (Yunmen Wuji)*yun men  wu3 jyi
-N: Contemporary Legend Theater (…劇場), a Taiwanese stage and opera company (Dangdai Chuanqi)*dang day  chuan2 chyi
+N: Cloud Gate Theater, a modern dance group from Taipei (Yunmen Wuji)*yun men wuu jyi
+N: Contemporary Legend Theater (…劇場), a Taiwanese stage and opera company (Dangdai Chuanqi)*dang day chwan chyi
 N: transliteration of William Shakespeare's surname*sha shyh bii yea
 N: traditional Chinese dress for women, dating from the Qing dynasty, originally worn in Manchuria (M: 件)*chyi paur
-N: modern theatrical group performing Peking Opera (Yayin Xiaoji)*yea in  xiao3 jyi
-N: Kingdom of Desire, a theatrical play by the Contemporary Legend Theater from Taiwan, adapted from Shakespeare's Macbeth (Yuwang Chengguo)*yuh wanq  cheng2 gwo
+N: modern theatrical group performing Peking Opera (Yayin Xiaoji)*yea in sheau jyi
+N: Kingdom of Desire, a theatrical play by the Contemporary Legend Theater from Taiwan, adapted from Shakespeare's Macbeth (Yuwang Chengguo)*yuh wanq cherng gwo
 N: beer (M: 杯, 瓶, 罐 or 桶)*pyi jeou
 N: socks, stockings (M: 隻 or 雙)*wah .tzy
 N: Islam*hwei jiaw

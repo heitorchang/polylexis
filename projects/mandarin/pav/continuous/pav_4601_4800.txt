@@ -1,4 +1,4 @@
-c:/Users/Heitor/Desktop/code/natural-languages/mandarin/gwoyeu-romatzyh-studies/polylexis/pav/continuous/pav_4601_4800
+Words 4601 to 4800
 ===
 Write in GR.
 ===
@@ -6,15 +6,15 @@ PV: to be mouth-watering, to whet one's appetite*leang jya sheng jin
 PV: sorrows of partings and joys of reunions, the varied and often bitter experiences that life has to offer*bei huan li her
 PV: worldly wisdom, human feelings, sympathies and the affairs of human life, the way of the world, the ways of human beings and society (also with 故 as the last character)*ren chyng shyh shyh
 PV: to be life-like, to be true-to-life*sheu sheu ru sheng
-N: famous puppeteer (Li Tianlu, 1910-1998)*lii  tian1 luh
+N: famous puppeteer (Li Tianlu, 1910-1998)*lii tian luh
 N: puppet theater troupe (Yiwanran)*yih woan ran
 N: county in Jiangsu, famous for the locally manufactured teapots (Yixing)*yi shing
 N: village in Taiwan, famous for its pottery (Yingge)*ing ge
 N: tea from the Wuyi mountain area in Fujian*wuu yi char
-N: Tang dynasty of China (618-907 CE)*tarng  chao2
-N: a Tang dynasty man particularly fond of tea, who wrote 茶經, a book about tea (Lu Yu)*luh  yu3
+N: Tang dynasty of China (618-907 CE)*tarng chaur
+N: a Tang dynasty man particularly fond of tea, who wrote 茶經, a book about tea (Lu Yu)*luh yeu
 N: book touching on various aspects of cultivating and drinking tea, dating from the Tang dynasty (Chajing)*char jing
-N: 1993 Taiwanese movie by 侯孝賢 (The Puppetmaster)*shih menq  ren2 sheng
+N: 1993 Taiwanese movie by 侯孝賢 (The Puppetmaster)*shih menq ren sheng
 BF: noon, midday ; N: 7th of the Twelve Terrestrial Branches, symbolized by the horse (馬)*wuu
 N: dry land*luh dih
 N: one or all of the twelve symbols or signs of the Chinese horoscope, each of these signs is represented by an animal, different every year in a twelve-year cycle*sheng shiaw
@@ -48,7 +48,7 @@ AT: to be something for a year, to act as something on a yearly basis*jyr nian
 SV, AT: to be auspicious, to be favorable, to be propitious, to be lucky*jyi shyang
 V: to gallop (for a horse), to surge forward, to roll on in waves*ben terng
 N: time, years*suey yueh
-N: Jade Emperor, the supreme deity of Daoism (also called 天公 in Taiwan)*yuh hwang  da4 dih
+N: Jade Emperor, the supreme deity of Daoism (also called 天公 in Taiwan)*yuh hwang dah dih
 N: Egypt*ai jyi
 N: Babylon*ba bii luen
 PV: a place or position which one occupies*yih shyi jy dih
@@ -113,13 +113,13 @@ PV: to be well-organized, to be perfect, to be well-formed*fang fang jenq jenq
 PV: to write characters in which every stroke is placed perfectly (literally, not even one stroke is negligent)*yih bii buh goou
 PV: to write calligraphy with lively flourishes, to do something with lively flourishes (literally, with dragons flying and phoenixes dancing)*long fei fenq wuu
 PV: to write calligraphy with a very natural and flowing style, to do something with a natural and flowing style (literally, moving clouds and flowing water)*shyng yun liou shoei
-N: Shang dynasty (1800-1200 BCE), later renamed Yin*in  shang1
+N: Shang dynasty (1800-1200 BCE), later renamed Yin*in shang
 N: oracle-bone inscriptions (on tortoise shells)*jea guu wen
 N: Bronze inscriptions*jin wen
 N: large-seal style, an ancient style of calligraphy from the Zhou dynasty*dah juann
-N: First Emperor of Qin (Qin Shihuang, 259-210 BCE)*chyn  shi3 hwang
+N: First Emperor of Qin (Qin Shihuang, 259-210 BCE)*chyn shyy hwang
 N: small-seal style, a style of calligraphy adopted during the Qin dynasty for the purpose of standardization*sheau juann
-N: Han dynasty (206 BCE-219 CE)*hann  chao2
+N: Han dynasty (206 BCE-219 CE)*hann chaur
 N: an ancient style of calligraphy used by the Han dynasty*lih shu
 N: regular script*kae shu
 N: running script, running hand, one of the major categories of Chinese calligraphy*shyng shu
@@ -187,7 +187,7 @@ N: channel, way, path*twu jinq
 N: ethics, morality, moral principles*luen lii
 N, V: dispute, debate*jeng yih
 V: to relax, to take one's leisure*shu hoan
-N: strategy*tseh lüe4
+N: strategy*tseh liueh
 N: topic or an assignment for study or discussion, a task or challenge to be dealt with*keh tyi
 PV: to still remain an open, unanswered question; to be unresolved, to be without a final conclusion*shanq wu dinq luenn
 PV: to be mutually beneficial, to help each other*huh juh huh huey

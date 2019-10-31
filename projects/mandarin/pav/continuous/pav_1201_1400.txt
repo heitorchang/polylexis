@@ -1,4 +1,4 @@
-c:/Users/Heitor/Desktop/code/natural-languages/mandarin/gwoyeu-romatzyh-studies/polylexis/pav/continuous/pav_1201_1400
+Words 1201 to 1400
 ===
 Write in GR.
 ===
@@ -15,7 +15,7 @@ V: to suit, agree with*her
 N: The Netherlands*her lan
 N: river (collective)*her liou
 SV: to be suitable, appropriate*her shyh
-Cross-Island Highway (eg. Central: 中部～)*herng guann  gong1 luh
+Cross-Island Highway (eg. Central: 中部～)*herng guann gong luh
 N: text message (SMS) (M: 通, 封)*jean shiunn
 VO: to open up a new road*kai luh
 N: Kending*keen ding
@@ -172,7 +172,7 @@ N: noun*ming tsyr
 SV: to be sad, to be distressed*nan guoh
 AV: would rather, had better, would sooner (…k…)*ning kee
 AV: would rather, had better, would sooner (…y…)*ning yuann
-I: interjection indicating doubt ('Really?')*o2
+I: interjection indicating doubt ('Really?')*or
 N: final exam (at the end of a term)*chyi moh kao
 A: actually, in fact, as a matter of fact*chyi shyr
 N: mid-term exam*chyi jong kao

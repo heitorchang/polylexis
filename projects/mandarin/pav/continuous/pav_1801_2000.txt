@@ -1,11 +1,11 @@
-c:/Users/Heitor/Desktop/code/natural-languages/mandarin/gwoyeu-romatzyh-studies/polylexis/pav/continuous/pav_1801_2000
+Words 1801 to 2000
 ===
 Write in GR.
 ===
 N: nationalism (one of Sun Yat-sen's three principles)*min tzwu juu yih
 N: equal, democratic political rights (one of Sun Yat-sen's three principles)*min chyuan juu yih
 N: access to social facilities (one of Sun Yat-sen's three principles)*min sheng juu yih
-N: Father of Warlords, influential Qing general, who later declared himself the emperor (1859-1916) (Yuan Shikai)*yuan  shi4 kae
+N: Father of Warlords, influential Qing general, who later declared himself the emperor (1859-1916) (Yuan Shikai)*yuan shyh kae
 N: a province in China (Yunnan)*yun nan
 N: a walled city-fortress near Beijing (Wanping)*woan pyng
 N: historic name of Beijing (Beiping)*beei pyng
@@ -190,7 +190,7 @@ N: Christmas*shenq dann jye
 VO: to attend a (Catholic) mass*wanq mi sa
 V: to deduct ; to buckle up*kow
 N: Los Angeles*luoh shan ji
-N: grandma, grandmother (father's mother)*nae .nai2
+N: grandma, grandmother (father's mother)*nae .nai
 N: novel, short story (M: 本, 篇)*sheau shuo
 A: incidentally, on the way, as one passes*shuenn biann
 N: view, opinion, idea*yih jiann

@@ -1,4 +1,4 @@
-c:/Users/Heitor/Desktop/code/natural-languages/mandarin/gwoyeu-romatzyh-studies/polylexis/pav/continuous/pav_0801_1000
+Words 0801 to 1000
 ===
 Write in GR.
 ===
@@ -194,11 +194,11 @@ N: the whole school*chyuan shiaw
 N: map (M: 張)*dih twu
 N: magazine (M: 本)*tzar jyh
 N: Confucius temple*koong miaw
-N: Chinese culture*jong hwa  wen2 huah
+N: Chinese culture*jong hwa wen huah
 AT: Chinese*jong hwa
 N: interest*shinq chiuh
 SV: to be interested, to have an interest in*yeou shinq chiuh
 V: to select, choose*sheuan
 N: transliteration of an English given name (William)*woei lih
-N: National Geographic Magazine (國家～)*dih lii  za2 jyh
+N: National Geographic Magazine (國家～)*dih lii tzar jyh
 N: relationship*guan shih

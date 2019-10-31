@@ -1,4 +1,4 @@
-c:/Users/Heitor/Desktop/code/natural-languages/mandarin/gwoyeu-romatzyh-studies/polylexis/pav/continuous/pav_2601_2800
+Words 2601 to 2800
 ===
 Write in GR.
 ===
@@ -188,10 +188,10 @@ V: to click with a computer mouse*dean sheuan
 V: to forbid, to prohibit from*jinn jyy
 N: transliteration of Sherlock Holmes's surname*fwu eel mo sy
 N: alien, E.T. (extra-terrestrial being)*way shing ren
-N: transliteration of Harry Potter*ha lih  po1 teh
+N: transliteration of Harry Potter*ha lih po teh
 N: Hong Kong*shiang gaang
 N: kung fu*gong fu
-N: Golden Horse Film Festival in Taipei*jin maa  ying3 jaan
+N: Golden Horse Film Festival in Taipei*jin maa yiing jaan
 N: Golden Horse Award, awarded at the the same-named film festival in Taipei*jin maa jeang
 N, SV: white, to be white ; A: in vain, to no effect*bair
 VO: to meet someone, to see someone*jiann miann

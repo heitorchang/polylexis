@@ -1,4 +1,4 @@
-c:/Users/Heitor/Desktop/code/natural-languages/mandarin/gwoyeu-romatzyh-studies/polylexis/pav/continuous/pav_3401_3600
+Words 3401 to 3600
 ===
 Write in GR.
 ===
@@ -196,7 +196,7 @@ N, SV: honesty, trustworthiness; to be honest, to be upright, to be trustworthy*
 SV: honest, frank, well-behaved, simple-minded, easily taken in*lao shyr
 AT: very old, hackneyed (literally 'so old it's losing its teeth')*lao diaw ya
 SV, RE: to be familiar, to be cooked, to be ripe, to be practiced*shour
-N: Twenty-Four Filial Exemplars, a classic text from the times of the Yuan dynasty*ell shyr syh  xiao4
+N: Twenty-Four Filial Exemplars, a classic text from the times of the Yuan dynasty*ell shyr syh shiaw
 N: transliteration of Washington*hwa shenq duenn
 V: to bring ; to take care of a child, to bring up the young ; PT: and, while, as well as, both … and … (indicating two nearly simultaneous actions) (連 … ～ … )*day
 N: fruit juice (M: 種, 杯, 盒)*guoo jy

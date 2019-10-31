@@ -1,4 +1,4 @@
-c:/Users/Heitor/Desktop/code/natural-languages/mandarin/gwoyeu-romatzyh-studies/polylexis/pav/continuous/pav_6601_6800
+Words 6601 to 6800
 ===
 Write in GR.
 ===
@@ -103,7 +103,7 @@ N: fly [TOP-M]*tsang yng
 SV: to be vigorous, to be flourishing [TOP-M]*perng bor
 V: to spread out, to extend, to sprawl [TOP-M]*mann yan
 N: hedge, fence, line of defence, barrier [TOP-M]*farn li
-V: to maltreat, to tyrannize, to abuse [TOP-M]*nüe4 day
+V: to maltreat, to tyrannize, to abuse [TOP-M]*niueh day
 SV: to be pious, to be devout [TOP-M]*chyan cherng
 N: butterfly [TOP-M]*hwu dye
 N: snail [TOP-M]*gua niou

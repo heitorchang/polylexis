@@ -1,4 +1,4 @@
-c:/Users/Heitor/Desktop/code/natural-languages/mandarin/gwoyeu-romatzyh-studies/polylexis/pav/continuous/pav_2401_2600
+Words 2401 to 2600
 ===
 Write in GR.
 ===
@@ -10,7 +10,7 @@ N: sweet glutinous rice flour ball-shaped dumplings, served for the Lantern Fest
 VO: to carry a lantern*tyi deng long
 IE: good luck*hao yunn
 N: poet*shy ren
-N: famous poet of the Warring States period (Qu Yuan)*chiu  yuan2
+N: famous poet of the Warring States period (Qu Yuan)*chiu yuan
 N: steamed glutinous rice meat dumplings wrapped in bamboo leaves*tzonq .tzy
 N: Moon (…q…)*yueh chyou
 VO: to admire the full moon*shaang yueh
@@ -23,7 +23,7 @@ SV, V: to feel wronged; to wrong somebody*woei chiu
 N, V: doubt, suspicion, distrust; to doubt, to suspect, to distrust*hwai yi
 V: to boil*juu
 N: monument, memorial*jih niann bei
-N: Capitol Hill*gwo huey  shan1 juang
+N: Capitol Hill*gwo huey shan juang
 N: supreme court*tzuey gau faa yuann
 N: constitution, charter*shiann faa
 N: botanical garden*jyr wuh yuan
@@ -37,7 +37,7 @@ N: one-way ticket*dan cherng piaw
 N: round-trip ticket*lai hwei piaw
 N: volcano*huoo shan
 VO: to enjoy flowers*shaang hua
-N: water reservoir in Taoyuan, south of Taipei (Shimen Reservoir)*shyr men  shui3 kuh
+N: water reservoir in Taoyuan, south of Taipei (Shimen Reservoir)*shyr men shoei kuh
 N: Miniature Land, an amusement park with miniatures of famous landmarks*sheau ren gwo
 N: wild animal, wildlife; (～園) Safari Park; (六福村～園) Liufucun Safari Park near Xinzhu in Taiwan*yee sheng donq wuh
 VO: to spend holiday or vacation*duh jiah
@@ -71,7 +71,7 @@ N: stereo, a hi-fi set (M: 套); audio*in sheang
 V: to make a sound, to reverberate*sheang
 A: finally, at last*tzoong suann
 N: machine, machinery (M: 部)*ji chih
-N: Industrial Revolution*gong yeh  ge2 minq
+N: Industrial Revolution*gong yeh ger minq
 V: to replace, to substitute*day tih
 N: robot*ji chih ren
 V: to repair, to mend*shiou lii
@@ -148,7 +148,7 @@ N: dumpling soup, wonton*hwen twen
 N: black tea*horng char
 N: green tea*liuh char
 SV, A: smooth-going, without a hitch; smoothly, successfully*shuenn lih
-N: Lu Kang*luh  kang1
+N: Lu Kang*luh kang
 N: student association (as in 臺灣～)*torng shyue huey
 N: Beijing Opera*jing jiuh
 N: leisure activities*shiou shyan hwo donq

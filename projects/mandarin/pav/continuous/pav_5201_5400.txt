@@ -1,4 +1,4 @@
-c:/Users/Heitor/Desktop/code/natural-languages/mandarin/gwoyeu-romatzyh-studies/polylexis/pav/continuous/pav_5201_5400
+Words 5201 to 5400
 ===
 Write in GR.
 ===
@@ -68,7 +68,7 @@ N: cock's crow, rooster's crow*gong ji jiaw
 N: doorkeeper*goan men .de
 PV: to let the tiger escape to the mountains, to cause or breed calamity for the future*tzonq huu guei shan
 VO: to send or dispatch troops*pay bing
-N: Qin dynasty of China (221-206 BCE)*chyn  chao2
+N: Qin dynasty of China (221-206 BCE)*chyn chaur
 SV: to be carefully and neatly done*gong jeeng
 V: to be commonly called …, to be commonly known as …*swu cheng
 N: writer's four essentials (brush, ink stick, ink slab, paper)*wen farng syh bao
@@ -99,10 +99,10 @@ N: everywhere under heaven, world, China*tian shiah
 V: to build, to construct*juh
 N: Great Wall of China*charng cherng
 N: tyranny, despotic rule*baw jenq
-N: personal name of 秦始皇, the first emperor of China (Ying Zheng)*yng  zheng4
-N: First Emperor, founder of the Chinese Empire, also called 秦始皇, personal name 嬴政*shyy  huang2 dih
-N: author of the first dictionary 說文解字 (Xu Shen)*sheu  shen4
-N: first Chinese dictonary, compiled by Xu Shen in 121 CE*shuo wen  jie3 tzyh
+N: personal name of 秦始皇, the first emperor of China (Ying Zheng)*yng jenq
+N: First Emperor, founder of the Chinese Empire, also called 秦始皇, personal name 嬴政*shyy hwang dih
+N: author of the first dictionary 說文解字 (Xu Shen)*sheu shenn
+N: first Chinese dictonary, compiled by Xu Shen in 121 CE*shuo wen jiee tzyh
 N: typeface, font, style of calligraphy*tzyh tii
 AT, N, V: applied, for practical application; application; to apply, to use*yinq yonq
 N, V: writing; to write*shu shiee
@@ -112,7 +112,7 @@ N: one of the Warring States, one of the Three Kingdoms (Wei)*wey
 SV: to be perfect, to be complete with everything*wan bey
 N, V: change; to change, to fluctuate*biann donq
 N: end, last part, tail assembly, linguistic final*woei buh
-N: Wei-Jin Period (220-420 CE)*wey -jin4
+N: Wei-Jin Period (220-420 CE)*wey jinn
 N: Song dynasty (960-1279 CE)*sonq
 N: our country (i.e. China)*woo gwo
 V: to spread, to circulate, to hand down*liou chwan
@@ -179,7 +179,7 @@ V: to have unique (e.g. talent or insight)*dwu jiuh
 N: early stage, early phase, early period*tzao chyi
 AT, N: initial, prime, first; initially, at first*tzuey chu
 N: river*chuan
-SV: to be simple, to be brief, to be sketchy*jean lüe4
+SV: to be simple, to be brief, to be sketchy*jean liueh
 N: form, shape, pattern, morphology*shyng tay
 SV: to be convex*tu
 SV: to be concave*au

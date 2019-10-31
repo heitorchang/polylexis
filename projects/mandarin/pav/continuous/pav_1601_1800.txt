@@ -1,4 +1,4 @@
-c:/Users/Heitor/Desktop/code/natural-languages/mandarin/gwoyeu-romatzyh-studies/polylexis/pav/continuous/pav_1601_1800
+Words 1601 to 1800
 ===
 Write in GR.
 ===
@@ -108,7 +108,7 @@ IE: in your opinion*nii kann
 V: to be elected*dang sheuan
 N: Democratic Party*min juu daang
 N: Socialist Party*sheh huey daang
-N: National Assembly*gwo min  da4 huey
+N: National Assembly*gwo min dah huey
 N: Control Yuan (a central government body in Taiwan)*jian char yuann
 N: member of the Control Yuan (a central government body in Taiwan)*jian char woei yuan
 NU (QW), A: how much? how many? ; how many, how much, more or less, somewhat*duo shao
@@ -190,15 +190,15 @@ N: air force*kong jiun
 N: commander-in-chief*toong shuay
 V: to declare, proclaim, announce*shiuan buh
 N: cloth (M: 塊, 尺)*buh
-N: Sun Yat-sen (1866-1925)*suen  zhong1 shan
-N: Qing dynasty (1644-1911)*ching  chao2
-N: Republic of China (since 1912, moved to Taiwan in 1949)*jong hwa  min2 gwo
-N: Three Principles of the People (a treatise by Sun Yat-sen)*san min  zhu3 yih
+N: Sun Yat-sen (1866-1925)*suen jong shan
+N: Qing dynasty (1644-1911)*ching chaur
+N: Republic of China (since 1912, moved to Taiwan in 1949)*jong hwa min gwo
+N: Three Principles of the People (a treatise by Sun Yat-sen)*san min juu yih
 N: world war, (第二次~) World War II*shyh jieh dah jann
-N: Mao Zedong (1893-1976)*mau  ze2 dong
-N: Chiang Kai-shek (1887-1975)*jeang  jie4 shyr
-N: National Government*gwo min  zheng4 fuu
-N: The People's Republic of China (since 1949) (中華～國)*ren min  gong4 her
-N: Eastern Europe*dong  ou1
+N: Mao Zedong (1893-1976)*mau tzer dong
+N: Chiang Kai-shek (1887-1975)*jeang jieh shyr
+N: National Government*gwo min jenq fuu
+N: The People's Republic of China (since 1949) (中華～國)*ren min gonq her
+N: Eastern Europe*dong ou
 N: American Indians*yinn dih an ren
-N: The American Civil War (1861-1865)*nan beei  zhan4 jeng
+N: The American Civil War (1861-1865)*nan beei jann jeng

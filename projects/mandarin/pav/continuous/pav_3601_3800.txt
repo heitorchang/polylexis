@@ -1,4 +1,4 @@
-c:/Users/Heitor/Desktop/code/natural-languages/mandarin/gwoyeu-romatzyh-studies/polylexis/pav/continuous/pav_3601_3800
+Words 3601 to 3800
 ===
 Write in GR.
 ===
@@ -114,7 +114,7 @@ N: frozen bean curd, frozen tofu*donq dow fuu
 V: to fake, to pretend*huenn chong
 N, V: (～人) sponsor, host; to direct, to sponsor, to host*juu bann
 N:, V: performance, show; to perform; (～人) performer*yean chu
-N: name of a folk song, 'Dance of the Youth' (Qingchun Wuqu)*ching chuen  wu3 cheu
+N: name of a folk song, 'Dance of the Youth' (Qingchun Wuqu)*ching chuen wuu cheu
 N, V: vocal solo; to sing a solo*dwu chanq
 N: piano*gang chyn
 N, V: instrumental solo; to play an instrumental solo*dwu tzow
@@ -143,7 +143,7 @@ N: quantity, amount*shuh lianq
 V: to be equal to …, to be tantamount to …*deeng yu
 V: to blame, to reprove*tzer bey
 N: meaning, significance, implication*yih wey
-A: briefly, slightly*lüe4
+A: briefly, slightly*liueh
 VO: to suffer losses in business, to compensate, to pay damages*peir chyan
 N: capital*been chyan
 N: mermaid*meei ren yu

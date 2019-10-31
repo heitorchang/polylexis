@@ -1,4 +1,4 @@
-c:/Users/Heitor/Desktop/code/natural-languages/mandarin/gwoyeu-romatzyh-studies/polylexis/pav/continuous/pav_2001_2200
+Words 2001 to 2200
 ===
 Write in GR.
 ===
@@ -96,14 +96,14 @@ N: Paris*ba li
 N: Seine River*say nah her
 N: The Louvre*luo fwu gong
 N: Versailles*farn eel say gong
-N: Eiffel Tower*ba li  tie3 taa
+N: Eiffel Tower*ba li tiee taa
 N: Venice*uei ni sy
 N: Rome*luo maa
 N: Monte Carlo*meng dih kaa luo
 N: Sea World*hae yang shyh jieh
 N: Disneyland (～園)*dyi shyh ni leh
 N: Niagara Falls (～瀑布)*ni jia lha
-N: Yellowstone Park*hwang shyr  gong1 yuan
+N: Yellowstone Park*hwang shyr gong yuan
 N: Old Faithful Geyser (老～)*jong shyr pen chyuan
 N: Florida*for luo lii dar
 SV: to be romantic*lanq mann
@@ -116,7 +116,7 @@ N, V: judge; to arbitrate*pyng duann
 V: estimate, appraise, reckon*gu jih
 V: describe, depict, portray*miau shiee
 N: qualifier, modifier*shiou shyh
-V: to leave out, to omit, to abridge*sheeng lüe4
+V: to leave out, to omit, to abridge*sheeng liueh
 N: surface, face, outside appearance*beau miann
 V: to point out, to prompt*tyi shyh
 N: parentheses*kuoh hwu

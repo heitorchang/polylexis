@@ -1,4 +1,4 @@
-c:/Users/Heitor/Desktop/code/natural-languages/mandarin/gwoyeu-romatzyh-studies/polylexis/pav/continuous/pav_5001_5200
+Words 5001 to 5200
 ===
 Write in GR.
 ===
@@ -65,7 +65,7 @@ SV, V: to be advanced; to advance*shian jinn
 N: developed country, advanced nation*shian jinn gwo
 AT: common, mutual*gonq torng
 N: phenomenon, appearance*shiann shianq
-N: Europe and America, the West*ou -mei3
+N: Europe and America, the West*ou meei
 P: thus, like this, such*ru tsyy
 N: darling, conscience, character, energy, guts, sincerity, solidarity*shin gan
 N: start of a track race*chii pao
@@ -143,7 +143,7 @@ N: province of China (Jiangsu)*jiang su
 N: province of China (Fujian)*fwu jiann
 N: dynasty*chaur day
 AT: that which was written by …*suoo juh
-N: Taiwanese film director, famous for the movie 戲夢人生 (Hou Xiaoxian, Hou Hsiao-Hsien)*hour  xiao4 shyan
+N: Taiwanese film director, famous for the movie 戲夢人生 (Hou Xiaoxian, Hou Hsiao-Hsien)*hour shiaw shyan
 VO: to win a prize*huoh jeang
 PV: at all times in all countries*guu jin jong way
 N: gastronome, gourmet, food critic*meei shyr jia
@@ -174,8 +174,8 @@ SV: to be elegant, to be refined, to be graceful, to be polished*wen yea
 N: mundane affairs, daily routine*swu shyh
 SV: to be vulgar, to be coarse, to be earthy*tsu swu
 PV: holding the old by the arm and the young by the hand, helping the old and young during a journey*fwu lao shi yow
-N: an aristocrat of 齊國 during the Warring States Period (Lord Mengchang of Qi)*menq  chang2 jiun
-N: Warring States Period in the history of China (475-221 BCE)*jann gwo  shi2 day
+N: an aristocrat of 齊國 during the Warring States Period (Lord Mengchang of Qi)*menq charng jiun
+N: Warring States Period in the history of China (475-221 BCE)*jann gwo shyr day
 N: ancient state in what is now 山東 (Qi)*chyi gwo
 N: historical position of chancellor or prime minister in feudal China*tzae shianq
 N: feudal state*feng gwo
@@ -183,7 +183,7 @@ N: vassal state of 齊 (Xue)*shiue gwo
 V: to pass on to …*chwan geei
 N: harvest, crop*shou cherng
 N: person sponging on an aristocrat*shyr keh
-N: client of an aristocrat 孟嘗君 (Feng Xuan, second character also written 驩)*ferng  xuan1
+N: client of an aristocrat 孟嘗君 (Feng Xuan, second character also written 驩)*ferng shiuan
 N: bond, debenture*jay chiuann
 A: on departure*lin tzoou
 V: to call together, to convene*jaw jyi
