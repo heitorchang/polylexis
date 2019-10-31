@@ -2,116 +2,103 @@ flash_1_04_06
 ===
 Write in GR.
 ===
-MA: originally*been lai
-M: measure word for action or affair's time*tsyh
-MA (TW): formerly, in the past, used to*tsorng chyan
-MA: probably*dah gay
-N: telephone, call*diann huah
-SV, V: to be vexed, annoyed; to annoy*farn
-SV: to be happy*gau shinq
-V: to tell, to inform*gaw suh
-V, CV: to pass  (an occasion) ; a suffix indicating completion of an action, or completion of an action as an experience*guoh
-N: number*haw maa
-MA (TW): afterwards, later on*how lai
-V: to record, to write, to jot down*jih
-V: to remember*jih der
-VO: to meet someone, to see someone*jiann miann
-V: to receive, to meet, to come into contact with (also ～到)*jie
-V: to borrow, to lend*jieh
-V: to decide*jyue dinq
-MA: (I'm) afraid that, perhaps, probably*koong pah
-V: to leave*li kai
-V: to leave (message, thing, etc.), to stay, to remain ; to remain, to stay; to keep, reserve; to detain*liou
-SV, V, N: to be annoyed; to bother; an annoyance, troublesome*ma farn
-V: to fear*pah
-V: to know (as in 'to recognize')*renn der
-V: to recognize, to realize*renn shyh
-N: hand*shoou
-DEM, N: first, the top, head*tour
-P: a common telephone or intercom greeting, 'Hello!' (also with the fourth tone)*wei
-V: to wash*shii
-MA (TW): afterwards, after*yii how
-MA (TW): before, ago, formerly*yii chyan
-N: Italy*yih dah lih
-N: mail carrier, postman*you chai
-N: middle school*jong shyue
-N: a note*tzyh tyau
-SV: to be short (antonym: gāo)*ae
-N: method, way of doing something*bann faa
-SV: to be stupid*benn
-V, CV: to compare; compared to, than ; V: indicating the different scores won by two contestants or two contesting teams*bii
-A, V: comparatively, to compare*bii jiaw
-SV: to be extremely, to be exceedingly (hot, cold, wet, etc.)*buh der leau
-SV: to be long*charng
-M, N: a unit for measuring length, a ruler*chyy
-SV: to be intelligent*tsong ming
-SV: to be short*doan
+NU: eight*ba
+NU: half*bann
+M: cup of*bei
+M: volume, measure word for books, notebooks, etc.*been
 SV, A (QW): many, more ; how SV? (often used in an exclamatory sentence indicating a high degree, 'How … !' or 'What a … !')*duo
-A (QW): how SV? (often used in an exclamatory sentence indicating a high degree: 'How … !' or 'What a … !', the second character may be omitted)*duo .me
-N: French language*faa yeu
-A: even more, still more*genq
-M: meter*gong chyy
-M: centimeter*gong fen
-N: kilogram*gong jin
-N: schoolwork, homework*gong keh
-M: kilometer*gong lii
-MA, V: to seem, to be likely, to be like*hao shianq
-N: Chinese language*hwa yeu
-BF: utmost, extremely*jyi
-M: Chinese mile*lii
-N: age*nian jih
-SV: to be fat*panq
-N: day (date), days (time)*ryh .tzy
-N: world*shyh jieh
-SV: to be thin*show
-M: measure word for age, years old*suey
-SV, V: to be alike, to be like, to resemble*shianq
-BF, M: appearance, shape; kind of, type of*yanq
-N: appearance, shape, model, pattern*yanq .tzy
-N: all, everything*yi chieh
-SV, A: to be the same, identical*yi yanq
-M: foot (US measurement)*ing chyy
-M: mile (US measurement)*ing lii
-SV: to be studious, industrious, to be hard-working*yonq gong
-BF: language*yeu
-N: grammar*yeu faa
-N: language*yeu yan
-SV: to be heavy*jonq
-V: to move*ban
-VO: to move (one's house)*ban jia
-BF: site, spot, field*chaang
-N: supermarket*chau jyi shyh chaang
-N: a common Chinese surname (Chen)*chern
-DV: to go or come out*chu
-DC: to come out*chu lai
-VO: to go outside, to go out, to go out the door*chu men
-DC: to go out, to leave*chu chiuh
-N: address*dih jyy
-V: to change, to alter, to correct*gae
-MA (TW): another day*gae tian
-N: measure word for lines, rows*harng
-V, IE: welcome*huan yng
-N: airport*ji chaang
-V: to mail*jih
-N: suburbs*jiau chiu
-DV: move forward, enter*jinn
-DC: come in*jinn lai
-DC: go in*jinn chiuh
-SV: to be empty*kong
-N: a common Chinese surname (Lin)*lin
-V: to bring, to carry (in one's, or with one's hand)*na
-M: tray of, plate of, dish of*parn
-N: plate*parn .tzy
-V: to run*pao
-SV: to be even, level*pyng
-SV, MA: to be ordinary; generally, ordinarily, usually*pyng charng
-IE: come in, please*chiing jinn
-N: district, area, region*chiu
-N: market*shyh chaang
-N: urban area, urban district*shyh chiu
-V: to escort, to deliver, to send off, to present*sonq
-V: to talk about*tarn
-VO: to talk*tarn huah
-V, AV, N: to need, to require; need to; need, requirement*shiu yaw
-M: measure word for page*yeh
-VO: to have free time, to be free (also ～兒)*yeou konq
+NU (QW), A: how much? how many? ; how many, how much, more or less, somewhat*duo shao
+NU: two*ell
+M: cent ; points, score (at an exam, in sports and contests, etc.)*fen
+M: used as an all-purpose measure word, especially before nouns that do not have a specific measure word of their own*.ge
+V, CV: to give ; for (the benefit), to*geei
+NU, QW: a few, several; how many?*jii
+NU: nine*jeou
+M: a piece of lump, measure word for money*kuay
+NU: two*leang
+NU: zero*ling
+N: change, coins*ling chyan
+NU: six*liow
+M, N: dime, ten cents ; fair, fur, bristles*mau
+DEM: that*nah
+DEM: that (…i)*ney
+NU: seven*chi
+N: money ; a Chinese surname*chyan
+V: to please, to invite ; to hire someone to do something*chiing
+NU: three*san
+SV: few, less*shao
+NU: ten*shyr
+NU: four*syh
+M: polite measure word for people*wey
+NU: five*wuu
+NU: one*i
+A: in total, altogether*yi gonq
+V: to return change after a purchase ; V: to look for, search (also ～到)*jao
+VO: to give change back to someone after a purchase*jao chyan
+M: measure word for stick-like things*jy
+M: kind, type*joong
+N: father*bah .ba
+N: cup*bei .tzy
+N: uncle, father's elder brother, polite title for elderly gentleman (…b…)*bor .bo
+P: possesive or modifying particle*.de
+N: younger brother*dih .di
+SV, CV: to be correct ; to, toward, for*duey
+BF: son*erl
+N: son*erl .tzy
+P: a suffix, especially in Northern dialects*.el
+N: older brother*ge .ge
+N: dog*goou
+CONJ: or*hair shyh
+N: child*hair .tzy
+N: elder sister*jiee .jie
+N: teacher*lao shy
+N: mother*mha .ma
+N: cat*mhau
+N: younger sister*mey .mei
+BF: male*nan
+N: boy (also ～兒～)*nan hair .tzy
+N: boyfriend*nan perng yeou
+N: man*nan ren
+DEM: those (…i…)*ney shie
+BF: female*neu
+N: daughter*neu erl
+N: girl (also ～兒～)*neu hair .tzy
+N: girlfriend*neu perng yeou
+N: woman*neu ren
+N: friend; (小～) children*perng yeou
+N: photograph*shianq piann .el
+V: to study*shyue
+N: student*shyue sheng
+NU: some, a few*yih shie
+N: some, some of*yeou .de
+N, M, V: a common Chinese surname ; a measure word for photograph, paper, table, etc. ; to open, to stretch*jang
+DEM: these (…i…)*jey shie
+P: a noun suffix*.tzy
+NU: hundred*bae
+N: watch (also 手～)*beau
+SV: to be big, to be large*dah
+N: university*dah shyue
+N: TV set*diann shyh ji
+SV: to be enough (also ～了)*gow
+BF: machine*ji
+SV: to be old, to be used*jiow
+V: to feel, to think, to consider*jyue .de
+P: indicates excessiveness, change of state, or imminent action ; P: indicates completion of action*.le
+V: to sell*may
+SV: to be cheap*pyan yi
+NU: thousand*chian
+PH: excuse me, may I ask?*chiing wenn
+NU: ten thousand*wann
+V: to ask*wenn
+AV, V: to want to, to plan to; to think, to miss*sheang
+N: camera*shianq ji
+SV: to be small*sheau
+S, A: to be new; newly*shin
+N: school*shyue shiaw
+NU: one hundred million*yih
+SV: to be famous*yeou ming
+V: to photograph ; N: (～片) photograph; A: as usual, as before, as of old (followed by a verb) ; V: to reflect, to mirror*jaw
+N: camera (also written with 相)*jaw shianq ji
+A: really*jen
+V: to know*jy daw
+A: only*jyy
