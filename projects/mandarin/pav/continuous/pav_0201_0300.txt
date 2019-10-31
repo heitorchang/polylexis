@@ -17,10 +17,10 @@ V: to listen (also ～到); ( ～見) to hear*ting
 MA: now, right now*shiann tzay
 V: to write*shiee
 VO: to write characters*shiee tzyh
-NU-M: a little (first or last character can be omitted)*yih dean .el
-N: meaning, idea, definition*yih sy
-A: to be slightly, to be a little bit, to be somewhat (second and fourth characters are optional)*yeou yih dean .el
-SV: to be interesting*yeou yih sy
+NU-M: a little*yih dean
+N: meaning, idea, definition*yih .sy
+A: to be slightly, to be a little bit, to be somewhat*yeou yih dean
+SV: to be interesting*yeou yih .sy
 A: indicating that action is in progress ; V, CV: to be (at, in, on, etc.)*tzay
 N: character*tzyh
 V: to do, to make (character with 古)*tzuoh
@@ -33,7 +33,7 @@ N: tea*char
 A: often, usually, generally*charng
 V: to wear, to put on*chuan
 SV, N: to be wrong; mistake*tsuoh
-IE: right, correct*duey .le
+IE: right, correct*duey
 N: father, male relative*fuh
 N: parents*fuh muu
 N: father*fuh chin
@@ -65,7 +65,7 @@ N: the earth, land soil; (～上) ground*dih
 N: place*dih fang
 N (PW): underneath, below, beneath*dii shiah
 N, BF: store, shop*diann
-N: restaurant*fann goan .el
+N: restaurant*fann goan
 N: dining room*fann ting
 SV: to be convenient*fang biann
 N: room*farng jian
@@ -78,7 +78,7 @@ M: measure word for rooms*jian
 SV: to be near*jinn
 N: living room*keh ting
 CV: to be away from, apart from, separated from*li
-L: in, inside (also written 裏)*lii
+L: in, inside*lii
 N (PN): inside*lii miann
 N: floor, storey*lou
 N (PW): upstairs*lou shanq

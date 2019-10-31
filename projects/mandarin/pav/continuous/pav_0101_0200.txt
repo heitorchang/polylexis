@@ -31,7 +31,7 @@ N: son*erl .tzy
 P: a suffix, especially in Northern dialects*.el
 N: older brother*ge .ge
 N: dog*goou
-CONJ: or*hair shyh
+CONJ: or*hair .shy
 N: child*hair .tzy
 N: elder sister*jiee .jie
 N: teacher*lao shy
@@ -49,7 +49,7 @@ N: girl (also ～兒～)*neu hair .tzy
 N: girlfriend*neu perng yeou
 N: woman*neu ren
 N: friend; (小～) children*perng yeou
-N: photograph*shianq piann .el
+N: photograph*shianq piann
 V: to study*shyue
 N: student*shyue sheng
 NU: some, a few*yih shie
@@ -68,20 +68,19 @@ SV: to be old, to be used*jiow
 V: to feel, to think, to consider*jyue .de
 P: indicates excessiveness, change of state, or imminent action ; P: indicates completion of action*.le
 V: to sell*may
-SV: to be cheap*pyan yi
+SV: to be cheap*pyan .i
 NU: thousand*chian
 PH: excuse me, may I ask?*chiing wenn
 NU: ten thousand*wann
 V: to ask*wenn
 AV, V: to want to, to plan to; to think, to miss*sheang
-N: camera*shianq ji
+N: camera*jaw shianq ji
 SV: to be small*sheau
 S, A: to be new; newly*shin
 N: school*shyue shiaw
 NU: one hundred million*yih
 SV: to be famous*yeou ming
 V: to photograph ; N: (～片) photograph; A: as usual, as before, as of old (followed by a verb) ; V: to reflect, to mirror*jaw
-N: camera (also written with 相)*jaw shianq ji
 A: really*jen
 V: to know*jy daw
 A: only*jyy
@@ -91,7 +90,7 @@ V: to sing*chanq
 V: to eat; RC: (～飽) to eat one's fill; VO: (~飯) to have a meal*chy
 P: a particle used between a verb or adjective and its complement to indicate manner or degree*.de
 N: food, meal*fann
-N: song (last character can be omitted)*ge .el
+N: song*ge
 A: still, yet*hair
 SV: to be pleasant to listen to, pleasing to the ear, nice sounding*hao ting
 V: to drink*he
@@ -100,5 +99,4 @@ N: words, spoken language*huah
 VO: to paint, to draw*huah huah .el
 N: painting, picture*huah .el
 V: to teach*jiau
-VO: to teach*jiau shu
 N: wine or liquor*jeou
