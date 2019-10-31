@@ -14,7 +14,7 @@ P: question particle*.ma
 SV: to be beautiful*meei
 N: USA, America*meei gwo
 N: American*meei gwo ren
-N: given name*ming tzyh
+N: given name*ming .tzy
 QW: which?*naa
 PN: you*nii
 PN: you (formal usage)*nin
