@@ -11,7 +11,7 @@ CV: used to draw attention to the object, rather than the subject of a sentence*
 AV, V: need not, don't have to*bwu yonq
 N: garage*che farng
 kitchen*chwu farng
-N: window*chuang huh
+N: window*chuang .hu
 V: to bring ; to take care of a child, to bring up the young ; PT: and, while, as well as, both … and … (indicating two nearly simultaneous actions) (連 … ～ … )*day
 MA: of course*dang ran
 N (PW): middle, in the center*dang jong
@@ -71,7 +71,7 @@ N, M: grade at school*nian jyi
 N: leather*pyi
 N: leather shoes*pyi shye
 N: leather*pyi .tzy
-SV: to be beautiful, to be pretty*piaw lianq
+SV: to be beautiful, to be pretty*piaw .liang
 BF: color*seh
 M: pair of*shuang
 M: measure word for a set of books, clothes, furniture, stamps, dishes, equipment, etc.*taw
