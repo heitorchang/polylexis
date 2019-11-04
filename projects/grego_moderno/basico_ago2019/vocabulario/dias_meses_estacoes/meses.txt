@@ -1,0 +1,16 @@
+Meses (p. 89)
+===
+Escreva em grego. Não inclua o artigo (todos começam com ο). Lembre-se de que os meses começam com letra maiúscula.
+===
+janeiro*Ιανουάριος
+fevereiro*Φεβρουάριος
+março*Μάρτιος
+abril*Απρίλιος
+maio*Μάιος
+junho*Ιούνιος
+julho*Ιούλιος
+agosto*Αύγουστος
+setembro*Σεπτέμβριος
+outubro*Οκτώβριος
+novembro*Νοέμβριος
+dezembro*Δεκέμβριος
