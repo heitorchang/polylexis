@@ -1,4 +1,4 @@
-High frequency words
+High frequency words (1-100)
 ===
 Type the GR.
 ===
@@ -99,3 +99,6 @@ Type the GR.
 由於*you yu
 時候*shyr how
 知道*jy daw
+這樣*jeh yanq
+認為*renn wei
+時間*shyr jian
