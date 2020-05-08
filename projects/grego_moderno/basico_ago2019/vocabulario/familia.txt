@@ -1,0 +1,17 @@
+Família (p. 70)
+===
+Escreva em grego. Não inclua o artigo (é implícito).<br>
+Exemplo: papai -- μπαμπάς
+===
+papai*μπαμπάς
+mamãe*μαμά
+homem/marido*άντρας/άνδρας
+mulher/esposa*γυναίκα
+filho*γιος
+filha*κόρη
+vovô*παππούς
+vovó*γιαγιά
+neto*εγγονός
+neta*εγγονή
+irmão*αδελφός/αδερφός
+irmã*αδελφή/αδερφή

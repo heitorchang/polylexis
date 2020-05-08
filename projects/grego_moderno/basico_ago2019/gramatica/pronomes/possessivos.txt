@@ -1,0 +1,15 @@
+Pronomes possessivos (p. 71)
+===
+Escreva o pronome possessivo correspondente à pessoa.<br>
+Exemplo: εγώ -- μου
+===
+εγώ*μου
+εσύ*σου
+αυτός*του
+αυτή*της
+αυτό*του
+εμείς*μας
+εσείς*σας
+αυτοί*τους
+αυτές*τους
+αυτά*τους
